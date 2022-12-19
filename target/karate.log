@@ -1,0 +1,894 @@
+11:24:48.121 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+11:24:48.381 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+11:24:50.042 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://api.storerestapi.com/products
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:24:50.693 [main]  DEBUG com.intuit.karate - response time in milliseconds: 647
+1 < 200
+1 < Date: Sat, 17 Dec 2022 05:54:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"2216-rkuJukmRh1M6rSp9A1BF+ojG82U"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ayHHF45IJyqpu5i9t0hDwEC12PPBOEjiKPeql2REm%2BPhFD8boCOe%2Bc%2BInV4SbiS0bYSpf%2FwpVxE9RhW6pXIJyYpyo5Zgh4t34jujiY4IGGrXXcJ2tmekvNdjM1VvQ7mRbziaCAe%2F%2FA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad6810a8df9f9e-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":[{"_id":"61ab420c0f34753bcedfa787","title":"special cotton shirt for men","price":15,"category":{"_id":"61ab1ca64a0fef3f27dc663f","name":"men's fashion","slug":"mens-fashion"},"description":"","createdBy":{"role":"ROLE_CUSTOMER","_id":"612e49b9345dcc333ac6cb41","name":"Sofia Lily"},"createdAt":"2021-12-04T10:25:16.546Z","updatedAt":"2021-12-11T03:14:40.195Z","slug":"special-cotton-shirt-for-men","image":""},{"_id":"61ab42600f34753bcedfa78b","title":"high quality men distress skinny blue jeans","price":90,"category":{"_id":"61ab1ca64a0fef3f27dc663f","name":"men's fashion","slug":"mens-fashion"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e49eb345dcc333ac6cb47","name":"Mark Lyan"},"createdAt":"2021-12-04T10:26:40.771Z","updatedAt":"2021-12-04T10:26:40.771Z","slug":"high-quality-men-distress-skinny-blue-jeans"},{"_id":"61ab42790f34753bcedfa78f","title":"cotton o neck mens clothing t shirts","price":30,"category":{"_id":"61ab1ca64a0fef3f27dc663f","name":"men's fashion","slug":"mens-fashion"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e49b9345dcc333ac6cb41","name":"Sofia Lily"},"createdAt":"2021-12-04T10:27:05.257Z","updatedAt":"2021-12-04T10:27:05.257Z","slug":"cotton-o-neck-mens-clothing-t-shirts"},{"_id":"61ab42d00f34753bcedfa79e","title":"cotton pullover embroidery sweatshirt women","price":100,"category":{"_id":"61ab1ce24a0fef3f27dc6647","name":"women's fashion","slug":"womens-fashion"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e4976345dcc333ac6cb38","name":"Aria Ella"},"createdAt":"2021-12-04T10:28:32.450Z","updatedAt":"2021-12-04T10:28:32.450Z","slug":"cotton-pullover-embroidery-sweatshirt-women"},{"_id":"61ab42e90f34753bcedfa7a2","title":"breast button belt sur collar winter coat women","price":120,"category":{"_id":"61ab1ce24a0fef3f27dc6647","name":"women's fashion","slug":"womens-fashion"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e48bf345dcc333ac6cb28","name":"William Counts"},"createdAt":"2021-12-04T10:28:57.621Z","updatedAt":"2021-12-04T10:28:57.621Z","slug":"breast-button-belt-sur-collar-winter-coat-women"},{"_id":"61ab431c0f34753bcedfa7a6","title":"running sneaker","price":200,"category":{"_id":"61ab1d0e4a0fef3f27dc664d","name":"bags & shoes","slug":"bags-and-shoes"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e4851345dcc333ac6cb24","name":"Robert Gonzalez"},"createdAt":"2021-12-04T10:29:48.295Z","updatedAt":"2021-12-04T10:29:48.295Z","slug":"running-sneaker"},{"_id":"61ab43350f34753bcedfa7aa","title":"men casual shoes sports running sneakers","price":100,"category":{"_id":"61ab1d0e4a0fef3f27dc664d","name":"bags & shoes","slug":"bags-and-shoes"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e48fb345dcc333ac6cb2e","name":"Noah Ali"},"createdAt":"2021-12-04T10:30:13.299Z","updatedAt":"2021-12-04T10:30:13.299Z","slug":"men-casual-shoes-sports-running-sneakers"},{"_id":"61ab434b0f34753bcedfa7ae","title":"premium leather matt black casual boot","price":250,"category":{"_id":"61ab1d0e4a0fef3f27dc664d","name":"bags & shoes","slug":"bags-and-shoes"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e4991345dcc333ac6cb3b","name":"Alex Dwan"},"createdAt":"2021-12-04T10:30:35.528Z","updatedAt":"2021-12-04T10:30:35.528Z","slug":"premium-leather-matt-black-casual-boot"},{"_id":"61ab44f40f34753bcedfa819","title":"waterproof fitness racker sports watch","price":140,"category":{"_id":"61ab1cf84a0fef3f27dc664a","name":"jewlary & watches","slug":"jewlary-and-watches"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e49a7345dcc333ac6cb3e","name":"James Anderson"},"createdAt":"2021-12-04T10:37:40.331Z","updatedAt":"2021-12-04T10:37:40.331Z","slug":"waterproof-fitness-racker-sports-watch"},{"_id":"61ab450a0f34753bcedfa81d","title":"bracelet blood pressure sport fitness smartwatch","price":120,"category":{"_id":"61ab1cf84a0fef3f27dc664a","name":"jewlary & watches","slug":"jewlary-and-watches"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e48bf345dcc333ac6cb28","name":"William Counts"},"createdAt":"2021-12-04T10:38:02.131Z","updatedAt":"2021-12-04T10:38:02.131Z","slug":"bracelet-blood-pressure-sport-fitness-smartwatch"},{"_id":"61ab47110f34753bcedfa83f","title":"Sceptre LED  curved 2xHDMI display port monitor","price":149,"category":{"_id":"61ab1d274a0fef3f27dc6650","name":"computers","slug":"computers"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e493e345dcc333ac6cb32","name":"Steve Smith"},"createdAt":"2021-12-04T10:46:41.002Z","updatedAt":"2021-12-04T10:46:41.002Z","slug":"sceptre-led-curved-2xhdmi-display-port-monitor"},{"_id":"61ab472c0f34753bcedfa843","title":"ASUS Full HD HDMI Sync Eye Care eSports Gaming Monitor","price":159,"category":{"_id":"61ab1d274a0fef3f27dc6650","name":"computers","slug":"computers"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e4851345dcc333ac6cb24","name":"Robert Gonzalez"},"createdAt":"2021-12-04T10:47:08.135Z","updatedAt":"2021-12-04T10:47:08.135Z","slug":"asus-full-hd-hdmi-sync-eye-care-esports-gaming-monitor"},{"_id":"61ab475a0f34753bcedfa847","title":"iphone 13 pro black color 512gb storage","price":999,"category":{"_id":"61ab1d3b4a0fef3f27dc6654","name":"phone & tablets","slug":"phone-and-tablets"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e4959345dcc333ac6cb35","name":"Sajal Mia"},"createdAt":"2021-12-04T10:47:54.509Z","updatedAt":"2021-12-04T10:47:54.509Z","slug":"iphone-13-pro-black-color-512gb-storage"},{"_id":"61ab47c20f34753bcedfa853","title":"Dual 3G Phone Call Octa Core 10 Inch Android Tablet","price":700,"category":{"_id":"61ab1d3b4a0fef3f27dc6654","name":"phone & tablets","slug":"phone-and-tablets"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e4a15345dcc333ac6cb4d","name":"Nova Aurora"},"createdAt":"2021-12-04T10:49:38.563Z","updatedAt":"2021-12-04T10:49:38.563Z","slug":"dual-3g-phone-call-octa-core-10-inch-android-tablet"},{"_id":"61ab47e70f34753bcedfa857","title":"RGB Gaming Chair with Lights and Speakers","price":600,"category":{"_id":"61ab1d594a0fef3f27dc665a","name":"home & furniture","slug":"home-and-furniture"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e49ce345dcc333ac6cb44","name":"David Miller"},"createdAt":"2021-12-04T10:50:15.135Z","updatedAt":"2021-12-04T10:50:15.135Z","slug":"rgb-gaming-chair-with-lights-and-speakers"},{"_id":"61ab47fd0f34753bcedfa85b","title":"Bed Storage Leather Italian Furniture Sofa Luxury","price":750,"category":{"_id":"61ab1d594a0fef3f27dc665a","name":"home & furniture","slug":"home-and-furniture"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e48e3345dcc333ac6cb2b","name":"Tom Hardy"},"createdAt":"2021-12-04T10:50:37.601Z","updatedAt":"2021-12-04T10:50:37.601Z","slug":"bed-storage-leather-italian-furniture-sofa-luxury"},{"_id":"61ab48350f34753bcedfa862","title":"electrical maintenance tools kit boxes with plastic box","price":90,"category":{"_id":"61ab1d4e4a0fef3f27dc6657","name":"tools & hardware","slug":"tools-and-hardware"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e48fb345dcc333ac6cb2e","name":"Noah Ali"},"createdAt":"2021-12-04T10:51:33.697Z","updatedAt":"2021-12-04T10:51:33.697Z","slug":"electrical-maintenance-tools-kit-boxes-with-plastic-box"},{"_id":"61ab484d0f34753bcedfa866","title":"Drill Tool Set High Quality Powerful Multifunction Portable Drill","price":70,"category":{"_id":"61ab1d4e4a0fef3f27dc6657","name":"tools & hardware","slug":"tools-and-hardware"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e4851345dcc333ac6cb24","name":"Robert Gonzalez"},"createdAt":"2021-12-04T10:51:57.198Z","updatedAt":"2021-12-04T10:51:57.198Z","slug":"drill-tool-set-high-quality-powerful-multifunction-portable-drill"},{"_id":"61ab68a30f34753bcedfa898","title":"heart rate monitor gps fitness smartwatch","price":200,"category":{"_id":"61ab1cf84a0fef3f27dc664a","name":"jewlary & watches","slug":"jewlary-and-watches"},"description":null,"createdBy":{"role":"ROLE_CUSTOMER","_id":"612e4959345dcc333ac6cb35","name":"Sajal Mia"},"createdAt":"2021-12-04T13:09:55.061Z","updatedAt":"2021-12-04T13:09:55.061Z","slug":"heart-rate-monitor-gps-fitness-smartwatch"},{"_id":"61ebbfe64efdea94da60a734","title":"men Shoes","price":45,"category":{"_id":"61ab1ce24a0fef3f27dc6647","name":"women's fashion","slug":"womens-fashion"},"description":"","createdBy":{"role":"ROLE_SUPER_ADMIN","_id":"612e42d755b07f20de9ec6a5","name":"Super Admin"},"createdAt":"2022-01-22T08:27:18.824Z","updatedAt":"2022-01-22T08:27:18.824Z","slug":"men-shoes"}],"status":200,"message":"Success"}
+
+11:24:51.629 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/storeapiapp/features/AllProducts.feature
+11:31:20.138 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+11:31:20.385 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1671256880384
+11:31:20.407 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+11:31:21.878 [main]  INFO  com.intuit.karate - [print] https://api.storerestapi.com 
+11:31:22.223 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://api.storerestapi.com/categories
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:31:22.862 [main]  DEBUG com.intuit.karate - response time in milliseconds: 632
+1 < 200
+1 < Date: Sat, 17 Dec 2022 06:01:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"5a2-sW4i9Tmayhj/dlCwpNvxOZ33W40"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V73U1uNxKsg%2BJQIT%2FZ20uPwWMzn9AHXCBKR%2Bqwni6joRUT96fuCgi7GMYY3hU3a0RpzBffgeyk1n66%2FgDv4W2FoHsfh2Vepxx0Dma7Ku5k57GZPXxscvlX0ss6taVgvMRQrGnawXSw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad71a399f4a3f2-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":[{"products":["61ab420c0f34753bcedfa787","61ab42600f34753bcedfa78b","61ab42790f34753bcedfa78f"],"_id":"61ab1ca64a0fef3f27dc663f","name":"men's fashion","slug":"mens-fashion"},{"products":["61ab42d00f34753bcedfa79e","61ab42e90f34753bcedfa7a2","61ebbfe64efdea94da60a734","61ebc0034efdea57a860a746","61ebc05f4efdea55d360a756","61ebc0644efdea030e60a76a"],"_id":"61ab1ce24a0fef3f27dc6647","name":"women's fashion","slug":"womens-fashion"},{"products":["61ab44f40f34753bcedfa819","61ab450a0f34753bcedfa81d","61ab68a30f34753bcedfa898"],"_id":"61ab1cf84a0fef3f27dc664a","name":"jewlary & watches","slug":"jewlary-and-watches"},{"products":["61ab431c0f34753bcedfa7a6","61ab43350f34753bcedfa7aa","61ab434b0f34753bcedfa7ae"],"_id":"61ab1d0e4a0fef3f27dc664d","name":"bags & shoes","slug":"bags-and-shoes"},{"products":["61ab47110f34753bcedfa83f","61ab472c0f34753bcedfa843"],"_id":"61ab1d274a0fef3f27dc6650","name":"computers","slug":"computers"},{"products":["61ab475a0f34753bcedfa847","61ab47c20f34753bcedfa853"],"_id":"61ab1d3b4a0fef3f27dc6654","name":"phone & tablets","slug":"phone-and-tablets"},{"products":["61ab48350f34753bcedfa862","61ab484d0f34753bcedfa866"],"_id":"61ab1d4e4a0fef3f27dc6657","name":"tools & hardware","slug":"tools-and-hardware"},{"products":["61ab47e70f34753bcedfa857","61ab47fd0f34753bcedfa85b"],"_id":"61ab1d594a0fef3f27dc665a","name":"home & furniture","slug":"home-and-furniture"}],"status":200,"message":"Success"}
+
+11:31:23.786 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/storeapiapp/features/AllCategories.feature
+11:51:36.844 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+11:51:37.095 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1671258097094
+11:51:37.135 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20
+11:51:38.686 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:51:39.098 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":""}
+
+11:51:39.753 [main]  DEBUG com.intuit.karate - response time in milliseconds: 651
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:21:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 66
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"42-yQ/u5GA8lPwGovRnvoWw3fbLvmo"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7nHni9GTw%2Fqu1jfycJ9yBHSc5CoSFaILl0VZ%2F83FCXwui5HzlhiL5Ygvdi12aDPqzDS1%2Fb%2B7bupQqDNi2UVobOG%2FbFoEa8mN3WRL%2FzUsfvoac%2BNH%2BgWR2kdtCeD%2FtUjt5%2FKyu4Y%2Feg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad8f592cee6bc9-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"password\" is not allowed to be empty"}
+
+11:51:39.790 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20
+11:51:39.803 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:51:39.806 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"","password":"simple_password"}
+
+11:51:40.238 [main]  DEBUG com.intuit.karate - response time in milliseconds: 432
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:21:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 63
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"3f-aD64d4wZd9a2Qss7/xYsCESysug"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GnzZ%2FJqwfyv5COHB9fCYuoGjfQkotbucpBuYqn3CWDpx52kOcfYKKKyyupflUsLKKYKQOFXKVs6aWb%2B2Jc2JBA8E1lXb6qDdgcgoWKgv7LXQAS86jNVzS5S7589A5nHJU%2BfuGDmGvA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad8f5c4af6a123-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"email\" is not allowed to be empty"}
+
+11:51:40.241 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20
+11:51:40.250 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:51:40.254 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":"simple"}
+
+11:51:40.792 [main]  DEBUG com.intuit.karate - response time in milliseconds: 538
+1 < 400
+1 < Date: Sat, 17 Dec 2022 06:21:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"31-I8zslZmyey4LrgrUrSiil3ZfY9w"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d8tU4%2BttUaaWB3z418mfUb9s9UaRGfg6RSB7IW2Bt5xQu3QM9weBUi3YKqLefL4uHvcXLwHsvrDTnvxtn%2F92us0iPhZ%2FJE3hf28I2Cc9x6TWS6qod1X1fisAho91SqKDt5uw1zq43Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad8f5f0d7c6bc9-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":400,"message":"Your password is wrong"}
+
+11:51:41.918 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/storeapiapp/features/Login.feature
+11:52:08.696 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+11:52:08.952 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1671258128951
+11:52:08.991 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20
+11:52:10.256 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:52:10.581 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":""}
+
+11:52:11.209 [main]  DEBUG com.intuit.karate - response time in milliseconds: 626
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:22:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 66
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"42-yQ/u5GA8lPwGovRnvoWw3fbLvmo"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mn%2BXIdmhCRB5e0HW3GVAMHyItwIMLaHYmEr%2BNVeUXt9F65VDTG21%2F64OndGVOYjdVynrgqibN2K05vx0e%2F54NresBL5BJ35zm8SMYxxUTZCzibUgm4zOLbVHR5KiXaCXVRodob%2FsqA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad901ddebd1936-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"password\" is not allowed to be empty"}
+
+11:52:11.242 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20
+11:52:11.251 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:52:11.254 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"","password":"simple_password"}
+
+11:52:11.690 [main]  DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:22:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 63
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"3f-aD64d4wZd9a2Qss7/xYsCESysug"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VgjhWG0FARStPzurIub9m3oXJ%2B1%2B%2BE1QV%2FGGeL%2FaPvJMWCqfV2X4mFVZcYm79jerhK8TugATDWbHoKStcy2nZyG0Rdf27glO82t5VtMQj%2Fm970Jkaoz2hiavcAxPaThl%2Ba10PfQ%2BxQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9020eabea3ca-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"email\" is not allowed to be empty"}
+
+11:52:11.696 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 20
+11:52:11.715 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:52:11.717 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":"simple"}
+
+11:52:12.241 [main]  DEBUG com.intuit.karate - response time in milliseconds: 522
+1 < 400
+1 < Date: Sat, 17 Dec 2022 06:22:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"31-I8zslZmyey4LrgrUrSiil3ZfY9w"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IdkdDjVxHMYahDxfwQclX4vD7TKtKb0%2F1jb6Rxf23n4FrI%2B7w9SNlM2Z7acu2oy9u2OScyNHg3EEWR1G8FFYZmDMlwF8sJQmaD90%2BVZzz6up7sqWDNXt0z2zbyoWEmw04DF0%2FNATZw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9023bafc473f-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":400,"message":"Your password is wrong"}
+
+11:52:12.242 [main]  ERROR com.intuit.karate - src/test/java/com/storeapiapp/features/Login.feature:29
+Then status 422
+status code was: 400, expected: 422, response time in milliseconds: 522, url: https://api.storerestapi.com/auth/login, response: 
+{"status":400,"message":"Your password is wrong"}
+src/test/java/com/storeapiapp/features/Login.feature:29
+11:52:13.524 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/storeapiapp/features/Login.feature
+11:57:07.743 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+11:57:08.006 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1671258428005
+11:57:08.031 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 16
+11:57:09.414 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:57:09.783 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 65
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":"simple_password"}
+
+11:57:10.570 [main]  DEBUG com.intuit.karate - response time in milliseconds: 785
+1 < 200
+1 < Date: Sat, 17 Dec 2022 06:27:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"2a6-na0EWkyDZC2b2AmaN8E2RBeZYt4"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qWeKLqmbSlRQyS%2FhiQNeWdl4nJFYhlUf%2F%2BUcbVOtUjMrxazLagxXtthRJA3QVJ91fVL4NaJsajSye%2BYdLKrDfCtAWpEG0YHuoXA%2FmWKdG8EgPW9PrOQNcpdWbHtiPy6Fb2z29g4Jyw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad976c2a572f16-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODQzMSwiZXhwIjoxNjcxMjU5MzMxfQ.XFoHtzX2C6N0vxPz_yEUj79Gx6EtvDfg0rclWsXPMhg","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODQzMSwiZXhwIjoxNjcxMzQ0ODMxfQ.WTvVfbZINcXjZ5UYFnyBLm5k1I2FUx0agpKlr4XJxG4"},"message":"Sign in success","status":200}
+
+11:57:10.584 [main]  INFO  com.intuit.karate - [print] setAccessTokenForLogin is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODQzMSwiZXhwIjoxNjcxMjU5MzMxfQ.XFoHtzX2C6N0vxPz_yEUj79Gx6EtvDfg0rclWsXPMhg 
+11:57:10.587 [main]  INFO  com.intuit.karate - [print] setRefreshTokenForLogin is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODQzMSwiZXhwIjoxNjcxMzQ0ODMxfQ.WTvVfbZINcXjZ5UYFnyBLm5k1I2FUx0agpKlr4XJxG4 
+11:57:10.601 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:57:10.605 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":""}
+
+11:57:11.041 [main]  DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:27:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 66
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"42-yQ/u5GA8lPwGovRnvoWw3fbLvmo"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FhFum5o09dzXiE23Z0GyIzNnkfXr2qGQP7i9UfKNhQYUAcrHJuRyTSRG5lZn6nLRjaQjc20%2BxyJY3mJsNfRrnlBOglEMXKPP2B9S31RWVoRx3q8%2F2CZD%2BbjlusfV6VsH%2FBjgmsvUqw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad976fb84a9e44-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"password\" is not allowed to be empty"}
+
+11:57:11.059 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:57:11.061 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"","password":"simple_password"}
+
+11:57:11.476 [main]  DEBUG com.intuit.karate - response time in milliseconds: 414
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:27:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 63
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"3f-aD64d4wZd9a2Qss7/xYsCESysug"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oXsqJtU13Kuz6WGuky19cbC0HMod3dqLSh%2FV8HdNWtNyQF%2FHAo22hKoOspQ4v%2BDQSJb6ndJvlPgoyhoEs%2BQEHu9yFPLlekby5fmlQxf%2B6EfF%2B9J6j5L%2F8l5nHtF4S05gm06Bgicfrg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad97729b9287fc-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"email\" is not allowed to be empty"}
+
+11:57:11.484 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:57:11.487 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":"simple"}
+
+11:57:12.007 [main]  DEBUG com.intuit.karate - response time in milliseconds: 520
+1 < 400
+1 < Date: Sat, 17 Dec 2022 06:27:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"31-I8zslZmyey4LrgrUrSiil3ZfY9w"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=no3mrGeAYJBmP8fhS%2BPeacYwtk6anVBLfBD3MOELE90%2FvrVy7czM8SGqwV31VHPc2iFCTHzkrjcwrEjgEPluUZkEIO%2BdN%2FvY21cWGoou9mP4D9mHWspeql4%2B1IdBfobazx2uZWrg%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad97753b689fc1-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":400,"message":"Your password is wrong"}
+
+11:57:12.038 [main]  ERROR com.intuit.karate - src/test/java/com/storeapiapp/features/User.feature:6
+* def getAccessTokenFromLogin = loginFeatureFile.response.data.access_token
+js failed:
+>>>>
+01: loginFeatureFile.response.data.access_token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "access_token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/com/storeapiapp/features/User.feature:6
+11:57:13.162 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/storeapiapp/features/User.feature
+11:59:21.247 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+11:59:21.519 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1671258561518
+11:59:22.775 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:59:23.089 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 65
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":"simple_password"}
+
+11:59:23.884 [main]  DEBUG com.intuit.karate - response time in milliseconds: 793
+1 < 200
+1 < Date: Sat, 17 Dec 2022 06:29:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"2a6-oiy8JQQNbAupI8MS93mN0RCDYMc"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vKKK8mUw1dfG7MpOH730zcC%2B5a8puLHFu1J3w9er66rttQAo4q2VpeR5l4%2B1DuT9tuJ3euFdgoAw0%2FrIIHTcYnX9w36PmpUCU5KD2WAuUjsSMP4dVxvUJ8k1HpSmuYmhtqudhQsIMw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9aad5d7a4a23-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODU2NCwiZXhwIjoxNjcxMjU5NDY0fQ.SFiCNm4hxDUcoyK0IOjIYgzHbNqVqEoO1jR5ksM2ku4","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODU2NCwiZXhwIjoxNjcxMzQ0OTY0fQ.PF2PKphCZCxzKdR77b2wwBDMSGqO71O100VnMSOpbVM"},"message":"Sign in success","status":200}
+
+11:59:23.901 [main]  INFO  com.intuit.karate - [print] setAccessTokenForLogin is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODU2NCwiZXhwIjoxNjcxMjU5NDY0fQ.SFiCNm4hxDUcoyK0IOjIYgzHbNqVqEoO1jR5ksM2ku4 
+11:59:23.906 [main]  INFO  com.intuit.karate - [print] setRefreshTokenForLogin is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODU2NCwiZXhwIjoxNjcxMzQ0OTY0fQ.PF2PKphCZCxzKdR77b2wwBDMSGqO71O100VnMSOpbVM 
+11:59:23.922 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:59:23.926 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":""}
+
+11:59:24.350 [main]  DEBUG com.intuit.karate - response time in milliseconds: 423
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:29:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 66
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"42-yQ/u5GA8lPwGovRnvoWw3fbLvmo"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eQ0WHd6ScMCYetyCjAVGGncFBWDD2N9t45rVn922EGeDccqQt7gF1OWDClottcmVricdPCUlQ%2BiXpyoZdyCjdRtKhMrOtRZRebVnlV%2FM85QKjY5%2FXX1AMmk%2FzrnCanvCAjsEEXsEwg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9ab10a6b9fc2-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"password\" is not allowed to be empty"}
+
+11:59:24.363 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:59:24.366 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"","password":"simple_password"}
+
+11:59:24.783 [main]  DEBUG com.intuit.karate - response time in milliseconds: 416
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:29:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 63
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"3f-aD64d4wZd9a2Qss7/xYsCESysug"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2UIRvHZd%2FQ6OJ8G4AN51fmGKTStMOMfAZw2%2BSwcTIxBkhBKe3WAMbl%2FCH%2BywosbpA%2FRdh6V6YKwFyjUZewOHevLeyxFgfXX95R47WhywYrGavh02Qeg4yYgKarhd%2BZU36OqcCexpyw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9ab3bfaba041-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"email\" is not allowed to be empty"}
+
+11:59:24.798 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:59:24.800 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":"simple"}
+
+11:59:25.329 [main]  DEBUG com.intuit.karate - response time in milliseconds: 529
+1 < 400
+1 < Date: Sat, 17 Dec 2022 06:29:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"31-I8zslZmyey4LrgrUrSiil3ZfY9w"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eJsUHmBI1j9EHS1NPGDALcNy1f1hAcXaE5JUJbzwfLkVl0b%2B8DETFwSDB7YuEn6GJm9d4%2BlXuflAXngYizC%2FDAVXhXaQAT9rBihrihXbYgN5YW6g4gmaoPG1OTHi%2FmHfDjXTE0bR2A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9ab678374a23-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":400,"message":"Your password is wrong"}
+
+11:59:25.356 [main]  ERROR com.intuit.karate - src/test/java/com/storeapiapp/features/User.feature:6
+* def getAccessTokenFromLogin = loginFeatureFile.response.data.setAccessTokenForLogin
+js failed:
+>>>>
+01: loginFeatureFile.response.data.setAccessTokenForLogin
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "setAccessTokenForLogin" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/com/storeapiapp/features/User.feature:6
+11:59:25.381 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:59:25.386 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 65
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":"simple_password"}
+
+11:59:25.924 [main]  DEBUG com.intuit.karate - response time in milliseconds: 537
+1 < 200
+1 < Date: Sat, 17 Dec 2022 06:29:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"2a6-NE8hvJ0rGKZskSjedXEHrQn5Kvg"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BS43K%2B9E9qkRGIHXW0mv4lnl26yNYS68XZcbh3IA5bFJ9gKzFpO92CY6WGT3%2FdmWXtLW9yaBLrVi6ooWWEfcm79zf%2FEvuG4h1cNH3a3qns1vEl2C8IyxPQXtwoibAHyBzrW5VrhhZw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9aba2de49e3e-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODU2NywiZXhwIjoxNjcxMjU5NDY3fQ.Zdi1MODYa1lWoJPfQZfHsT15OuLlEgqC9pGoz7B6DaI","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODU2NywiZXhwIjoxNjcxMzQ0OTY3fQ.Ogu7ZXZx3korAQsxk0ygHFagOYbaJ45zmfWS03-rn9E"},"message":"Sign in success","status":200}
+
+11:59:25.928 [main]  INFO  com.intuit.karate - [print] setAccessTokenForLogin is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODU2NywiZXhwIjoxNjcxMjU5NDY3fQ.Zdi1MODYa1lWoJPfQZfHsT15OuLlEgqC9pGoz7B6DaI 
+11:59:25.929 [main]  INFO  com.intuit.karate - [print] setRefreshTokenForLogin is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTI1ODU2NywiZXhwIjoxNjcxMzQ0OTY3fQ.Ogu7ZXZx3korAQsxk0ygHFagOYbaJ45zmfWS03-rn9E 
+11:59:25.935 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:59:25.938 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 50
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":""}
+
+11:59:26.349 [main]  DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:29:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 66
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"42-yQ/u5GA8lPwGovRnvoWw3fbLvmo"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sl%2BRkV5xKYfiJq7GYMAhc7GuWfePEtdcaoKlY%2FTl8POZJW1emEMO1qwwWrwwTZ9XI04wFXyZ%2FQWHUXQuSaCqzr7tCI6eSfiSeB7VCk%2BLZgkeHgK907RW1gsQN%2Foe1xUu%2BJpqFHyZmA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9abd8e1e2eb3-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"password\" is not allowed to be empty"}
+
+11:59:26.356 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:59:26.359 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"","password":"simple_password"}
+
+11:59:26.792 [main]  DEBUG com.intuit.karate - response time in milliseconds: 433
+1 < 422
+1 < Date: Sat, 17 Dec 2022 06:29:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 63
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"3f-aD64d4wZd9a2Qss7/xYsCESysug"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bmZhDLH188AJY04qtk1FjHw9PQed12g1hUx84qS1gURoHzBvuk6jM649QRMKxlnj2E7jrA6JJqrTVfTk5tQrIhEurKX5ag5Isoscpas3Eldphd%2FZfWdU15wj3j9I8wGAd9n345YWvQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9ac04a128956-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":422,"message":"\"email\" is not allowed to be empty"}
+
+11:59:26.800 [main]  INFO  com.intuit.karate - [print] {
+  "email": "robertgonzalez@gmail.com",
+  "password": "simple_password"
+}
+ 
+11:59:26.802 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://api.storerestapi.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: api.storerestapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"email":"robertgonzalez@gmail.com","password":"simple"}
+
+11:59:27.197 [main]  DEBUG com.intuit.karate - response time in milliseconds: 394
+1 < 400
+1 < Date: Sat, 17 Dec 2022 06:29:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"31-I8zslZmyey4LrgrUrSiil3ZfY9w"
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=02bVR%2BeXPBEPcb1CMRXSzHqFfW%2F7en3T0WR1GAnDrOgQBDEycRGOhJJ7hjMNNS2t7kg6bGCr07Rt75Va3ps4mWsHpj7MzUc%2FsINVgDshGsWo464g%2Bd9%2FP7AbXknMNg54W4ba9FxA7A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77ad9ac2f97b9e20-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"status":400,"message":"Your password is wrong"}
+
+11:59:27.201 [main]  ERROR com.intuit.karate - src/test/java/com/storeapiapp/features/User.feature:6
+* def getAccessTokenFromLogin = loginFeatureFile.response.data.setAccessTokenForLogin
+js failed:
+>>>>
+01: loginFeatureFile.response.data.setAccessTokenForLogin
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "setAccessTokenForLogin" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/com/storeapiapp/features/User.feature:6
+11:59:28.474 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/storeapiapp/features/User.feature
+12:05:21.290 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:05:21.548 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1671258921547
+12:05:21.572 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:05:22.977 [main]  WARN  com.intuit.karate - type was null, defaulting to 'chrome'
+12:05:23.003 [main]  DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+12:05:23.006 [chrome_1671258922986]  DEBUG c.i.k.driver.chrome_1671258922986 - command: [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=c:\Automation\StoreApiApp\target\chrome_1671258922986, --disable-popup-blocking], working dir: target\chrome_1671258922986
+12:05:23.022 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - poll attempt #0 for port to be ready - localhost:9222
+12:05:23.285 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - poll attempt #1 for port to be ready - localhost:9222
+12:05:23.549 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - poll attempt #2 for port to be ready - localhost:9222
+12:05:23.569 [chrome_1671258922986-out]  DEBUG c.i.k.driver.chrome_1671258922986 - 
+12:05:23.569 [chrome_1671258922986-out]  DEBUG c.i.k.driver.chrome_1671258922986 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/b4654c1a-2150-4b05-b93e-d71d23a0428e
+12:05:23.821 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - poll attempt #3 for port to be ready - localhost:9222
+12:05:24.818 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:05:24.891 [main]  DEBUG com.intuit.karate - response time in milliseconds: 68
+1 < 200
+1 < Content-Length: 1278
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9E98B5E59F9639DA82C2B54B444ACB6E",
+   "id": "9E98B5E59F9639DA82C2B54B444ACB6E",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9E98B5E59F9639DA82C2B54B444ACB6E"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/90D7ADA08564DBF38677095B08345B1E",
+   "id": "90D7ADA08564DBF38677095B08345B1E",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/90D7ADA08564DBF38677095B08345B1E"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/AE06BFD6FF4E6FC70CFA99E15D0E78D3",
+   "id": "AE06BFD6FF4E6FC70CFA99E15D0E78D3",
+   "title": "Welcome to Chrome",
+   "type": "page",
+   "url": "chrome://welcome/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/AE06BFD6FF4E6FC70CFA99E15D0E78D3"
+} ]
+
+
+12:05:25.036 [main]  DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 1182 ms - http://localhost:9222/json
+12:05:25.038 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:05:25.041 [main]  DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < Content-Length: 1278
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9E98B5E59F9639DA82C2B54B444ACB6E",
+   "id": "9E98B5E59F9639DA82C2B54B444ACB6E",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9E98B5E59F9639DA82C2B54B444ACB6E"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/90D7ADA08564DBF38677095B08345B1E",
+   "id": "90D7ADA08564DBF38677095B08345B1E",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/90D7ADA08564DBF38677095B08345B1E"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/AE06BFD6FF4E6FC70CFA99E15D0E78D3",
+   "id": "AE06BFD6FF4E6FC70CFA99E15D0E78D3",
+   "title": "Welcome to Chrome",
+   "type": "page",
+   "url": "chrome://welcome/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/AE06BFD6FF4E6FC70CFA99E15D0E78D3"
+} ]
+
+
+12:05:25.058 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - root frame id: AE06BFD6FF4E6FC70CFA99E15D0E78D3
+12:05:25.600 [nioEventLoopGroup-2-1]  DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+12:05:25.603 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","flatten":true}}
+12:05:25.629 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.attachedToTarget","params":{"sessionId":"E3B797FF192E5565CC45495887BFF49E","targetInfo":{"targetId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","type":"page","title":"Welcome to Chrome","url":"chrome://welcome/","attached":true,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"},"waitingForDebugger":false}}
+12:05:25.631 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":1,"result":{"sessionId":"E3B797FF192E5565CC45495887BFF49E"}}
+12:05:25.631 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":2,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Target.activateTarget","params":{"targetId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3"}}
+12:05:25.635 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":2,"result":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.636 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":3,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Target.setDiscoverTargets","params":{"discover":true}}
+12:05:25.643 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"90D7ADA08564DBF38677095B08345B1E","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.647 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"9E98B5E59F9639DA82C2B54B444ACB6E","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.650 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","type":"page","title":"Welcome to Chrome","url":"chrome://welcome/","attached":true,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.652 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":3,"result":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.653 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":4,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Page.enable"}
+12:05:25.656 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":4,"result":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.657 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":5,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Runtime.enable"}
+12:05:25.663 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"-7416772772364198193.-6780322370728451485","auxData":{"isDefault":true,"type":"default","frameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3"}}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.664 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":5,"result":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.665 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":6,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Browser.getWindowForTarget","params":{"targetId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3"}}
+12:05:25.668 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":6,"result":{"windowId":435186540,"bounds":{"left":10,"top":10,"width":1050,"height":708,"windowState":"normal"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:25.878 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":7,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Page.navigate","params":{"url":"https:\/\/www.amazon.in\/"}}
+12:05:26.116 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":7,"result":{"frameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","loaderId":"48AF5758ED0DA3FDAF0DBE3A58841112"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.119 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.121 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStartedLoading","params":{"frameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.139 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","type":"page","title":"https://www.amazon.in","url":"https://www.amazon.in/","attached":true,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.145 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.146 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","loaderId":"48AF5758ED0DA3FDAF0DBE3A58841112","url":"https://www.amazon.in/","domainAndRegistry":"amazon.in","securityOrigin":"https://www.amazon.in","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.152 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.amazon.in","name":"","uniqueId":"8764866458454526700.159900658187526595","auxData":{"isDefault":true,"type":"default","frameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3"}}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.313 [chrome_1671258922986-out]  DEBUG c.i.k.driver.chrome_1671258922986 - [8648:16408:1217/120526.313:ERROR:device_event_log_impl.cc(215)] [12:05:26.313] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+12:05:26.315 [chrome_1671258922986-out]  DEBUG c.i.k.driver.chrome_1671258922986 - [8648:16408:1217/120526.315:ERROR:device_event_log_impl.cc(215)] [12:05:26.314] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+12:05:26.870 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameAttached","params":{"frameId":"4A587A8836C2C13B568C5052EEC995B1","parentFrameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","stack":{"callFrames":[{"functionName":"r","scriptId":"77","url":"https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/DAsf-1.50.5d4746c.js?csm_attribution=APE-SafeFrame","lineNumber":0,"columnNumber":34220},{"functionName":"","scriptId":"77","url":"https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/DAsf-1.50.5d4746c.js?csm_attribution=APE-SafeFrame","lineNumber":0,"columnNumber":35169},{"functionName":"","scriptId":"9","url":"https://www.amazon.in/","lineNumber":99,"columnNumber":486},{"functionName":"n","scriptId":"9","url":"https://www.amazon.in/","lineNumber":98,"columnNumber":156},{"functionName":"","scriptId":"9","url":"https://www.amazon.in/","lineNumber":99,"columnNumber":486},{"functionName":"fa","scriptId":"9","url":"https://www.amazon.in/","lineNumber":102,"columnNumber":178}]}},"sessionId":"E3B797FF192E5565CC45495 ...
+12:05:26.872 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4A587A8836C2C13B568C5052EEC995B1"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.876 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameAttached","params":{"frameId":"4DC72E1A1F7294A6DBD9DF6779D2C4A8","parentFrameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","stack":{"callFrames":[{"functionName":"r","scriptId":"77","url":"https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/DAsf-1.50.5d4746c.js?csm_attribution=APE-SafeFrame","lineNumber":0,"columnNumber":34220},{"functionName":"","scriptId":"77","url":"https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/desktop/DAsf-1.50.5d4746c.js?csm_attribution=APE-SafeFrame","lineNumber":0,"columnNumber":35169},{"functionName":"","scriptId":"9","url":"https://www.amazon.in/","lineNumber":99,"columnNumber":486},{"functionName":"n","scriptId":"9","url":"https://www.amazon.in/","lineNumber":98,"columnNumber":156},{"functionName":"","scriptId":"9","url":"https://www.amazon.in/","lineNumber":99,"columnNumber":486},{"functionName":"fa","scriptId":"9","url":"https://www.amazon.in/","lineNumber":102,"columnNumber":178}]}},"sessionId":"E3B797FF192E5565CC45495 ...
+12:05:26.878 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4DC72E1A1F7294A6DBD9DF6779D2C4A8"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.889 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"4A587A8836C2C13B568C5052EEC995B1","type":"iframe","title":"","url":"","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.892 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"4DC72E1A1F7294A6DBD9DF6779D2C4A8","type":"iframe","title":"","url":"","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.954 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"4A587A8836C2C13B568C5052EEC995B1","type":"iframe","title":"https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/whitelisted/desktop/sf-1.50.5d4746c.html","url":"https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/whitelisted/desktop/sf-1.50.5d4746c.html","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:26.966 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"4DC72E1A1F7294A6DBD9DF6779D2C4A8","type":"iframe","title":"https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/whitelisted/desktop/sf-1.50.5d4746c.html","url":"https://images-eu.ssl-images-amazon.com/images/S/apesafeframe/ape/sf/whitelisted/desktop/sf-1.50.5d4746c.html","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.021 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"4A587A8836C2C13B568C5052EEC995B1"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.022 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameDetached","params":{"frameId":"4A587A8836C2C13B568C5052EEC995B1","reason":"swap"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.078 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"4DC72E1A1F7294A6DBD9DF6779D2C4A8"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.080 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameDetached","params":{"frameId":"4DC72E1A1F7294A6DBD9DF6779D2C4A8","reason":"swap"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.166 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.domContentEventFired","params":{"timestamp":172536.607038},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.285 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":8,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Browser.setWindowBounds","params":{"windowId":435186540,"bounds":{"windowState":"maximized"}}}
+12:05:27.306 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":8,"result":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.394 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":9,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Runtime.evaluate","params":{"expression":"document.title","returnByValue":true}}
+12:05:27.660 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameResized","params":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.790 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":9,"result":{"result":{"type":"string","value":"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.871 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":10,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Runtime.evaluate","params":{"expression":"(function(){ var fun = function(e){ var d = window.getComputedStyle(e).display; while(d == 'none'){ e = e.parentElement; d = window.getComputedStyle(e).display } e.scrollIntoView({block: 'center'}) }; var e = document.evaluate(\"\/\/*[@id=\"CardInstanceVncOVtfpZ1oMUfaVjpt6Zw\"]\/div\/div\/a\/span\", document, null, 9, null).singleNodeValue; return fun(e) })()","returnByValue":true}}
+12:05:27.931 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameResized","params":{},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.964 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":10,"result":{"result":{"type":"object","subtype":"error","className":"SyntaxError","description":"SyntaxError: missing ) after argument list","objectId":"4679051939352526597.1.1"},"exceptionDetails":{"exceptionId":1,"text":"Uncaught","lineNumber":0,"columnNumber":227,"scriptId":"137","exception":{"type":"object","subtype":"error","className":"SyntaxError","description":"SyntaxError: missing ) after argument list","objectId":"4679051939352526597.1.2"}}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:27.965 [nioEventLoopGroup-2-1]  WARN  c.i.k.driver.chrome_1671258922986 - devtools error: [id: 10, sessionId: E3B797FF192E5565CC45495887BFF49E, result: [type: MAP, value: {type=object, subtype=error, className=SyntaxError, description=SyntaxError: missing ) after argument list, objectId=4679051939352526597.1.1}]]
+12:05:27.967 [main]  WARN  c.i.k.driver.chrome_1671258922986 - js eval failed once:(function(){ var fun = function(e){ var d = window.getComputedStyle(e).display; while(d == 'none'){ e = e.parentElement; d = window.getComputedStyle(e).display } e.scrollIntoView({block: 'center'}) }; var e = document.evaluate("//*[@id="CardInstanceVncOVtfpZ1oMUfaVjpt6Zw"]/div/div/a/span", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=SyntaxError, description=SyntaxError: missing ) after argument list, objectId=4679051939352526597.1.1}]
+12:05:28.205 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.loadEventFired","params":{"timestamp":172537.645952},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.206 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.329 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"DA5783887517766CD09E14CB5FFAEBF7","type":"service_worker","title":"Service Worker https://www.amazon.in/service-worker.js","url":"https://www.amazon.in/service-worker.js","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.435 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameAttached","params":{"frameId":"0521166205AF6EF1B90E78DFB2B3B357","parentFrameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","stack":{"callFrames":[{"functionName":"J","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":6,"columnNumber":125},{"functionName":"S","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":17,"columnNumber":246},{"functionName":"","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":36,"columnNumber":159},{"functionName":"","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":37,"columnNumber":56},{"functionName":"","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":37,"columnNumber":61}]}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.437 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStartedLoading","params":{"frameId":"0521166205AF6EF1B90E78DFB2B3B357"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.445 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://www.amazon.in","name":"","uniqueId":"754738925486563734.4037635120560262883","auxData":{"isDefault":true,"type":"default","frameId":"0521166205AF6EF1B90E78DFB2B3B357"}}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.447 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.documentOpened","params":{"frame":{"id":"0521166205AF6EF1B90E78DFB2B3B357","parentId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","loaderId":"FF98672340DD03FCC3AE684A7AEEA005","name":"cdxz76yqs5m","url":"https://www.amazon.in/","domainAndRegistry":"amazon.in","securityOrigin":"https://www.amazon.in","mimeType":"text/html","adFrameStatus":{"adFrameType":"none","explanations":[]},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.447 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"0521166205AF6EF1B90E78DFB2B3B357"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.465 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameAttached","params":{"frameId":"FE63337A14C76C022D8C41CA4F6E5313","parentFrameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","stack":{"callFrames":[{"functionName":"J","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":6,"columnNumber":125},{"functionName":"","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":36,"columnNumber":385},{"functionName":"","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":37,"columnNumber":56},{"functionName":"","scriptId":"140","url":"https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js","lineNumber":37,"columnNumber":61}]}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.466 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStartedLoading","params":{"frameId":"FE63337A14C76C022D8C41CA4F6E5313"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.470 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"https://www.amazon.in","name":"","uniqueId":"-3195872346685977014.-2381201849684851160","auxData":{"isDefault":true,"type":"default","frameId":"FE63337A14C76C022D8C41CA4F6E5313"}}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.471 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.documentOpened","params":{"frame":{"id":"FE63337A14C76C022D8C41CA4F6E5313","parentId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","loaderId":"941B7D8780C9DCCBA40A9C8FFB29D9AB","name":"aob8mboa775","url":"https://www.amazon.in/","domainAndRegistry":"amazon.in","securityOrigin":"https://www.amazon.in","mimeType":"text/html","adFrameStatus":{"adFrameType":"none","explanations":[]},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.472 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"FE63337A14C76C022D8C41CA4F6E5313"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.564 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameAttached","params":{"frameId":"C02DC787BB087CB190F9B364AC6DDE4B","parentFrameId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3","stack":{"callFrames":[{"functionName":"","scriptId":"128","url":"https://www.amazon.in/","lineNumber":1726,"columnNumber":344}]}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.567 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStartedLoading","params":{"frameId":"C02DC787BB087CB190F9B364AC6DDE4B"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.580 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"188795E10CD32F369F0FB431CF8F7FE6","type":"app","title":"Chrome Web Store Payments","url":"","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.595 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetDestroyed","params":{"targetId":"DA5783887517766CD09E14CB5FFAEBF7"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.688 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.consoleAPICalled","params":{"type":"error","args":[{"type":"string","value":"Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {\"m\":\"[AUI SW] Failed to register service worker: Failed to register a ServiceWorker for scope ('https://www.amazon.in/') with script ('https://www.amazon.in/service-worker.js'): ServiceWorker cannot be started\",\"name\":\"TypeError\",\"csm\":\"v5 ueLogError stack\",\"logLevel\":\"ERROR\",\"attribution\":\"RetailPageServiceWorker\",\"pageURL\":\"https://www.amazon.in/\",\"s\":[\"TypeError: Failed to register a ServiceWorker for scope ('https://www.amazon.in/') with script ('https://www.amazon.in/service-worker.js'): ServiceWorker cannot be started\"],\"t\":2546}"},{"type":"object","className":"Object","description":"Object","objectId":"4679051939352526597.1.3","preview":{"type":"object","description":"Object","overflow":true,"properties":[{"name":"m","type":"string","value":"[AUI SW] Failed to register service worker: ...
+12:05:28.690 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - [console] Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {"m":"[AUI SW] Failed to register service worker: Failed to register a ServiceWorker for scope ('https://www.amazon.in/') with script ('https://www.amazon.in/service-worker.js'): ServiceWorker cannot be started","name":"TypeError","csm":"v5 ueLogError stack","logLevel":"ERROR","attribution":"RetailPageServiceWorker","pageURL":"https://www.amazon.in/","s":["TypeError: Failed to register a ServiceWorker for scope ('https://www.amazon.in/') with script ('https://www.amazon.in/service-worker.js'): ServiceWorker cannot be started"],"t":2546}
+12:05:28.749 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"E795242BA91E4A0D5A7225B4223F4F60","type":"other","title":"","url":"","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.770 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"188795E10CD32F369F0FB431CF8F7FE6","type":"background_page","title":"Chrome Web Store Payments","url":"chrome-extension://nmmhkkegccagdldgiimedpiccmgmieda/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:28.912 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"E795242BA91E4A0D5A7225B4223F4F60","type":"background_page","title":"Google Docs Offline","url":"chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:29.442 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":4,"origin":"://","name":"","uniqueId":"5139321692320513633.-3967815910254898412","auxData":{"isDefault":true,"type":"default","frameId":"C02DC787BB087CB190F9B364AC6DDE4B"}}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:29.485 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"C02DC787BB087CB190F9B364AC6DDE4B","type":"iframe","title":"","url":"","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:29.488 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"C02DC787BB087CB190F9B364AC6DDE4B","type":"iframe","title":"https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=0101e55f2eea8109402deb5f570f9d5fb3280e8bc13e3fefeb48f904cfd1a143eca2&old_oo=0&ts=1671258927234&s=AadyPsReP00ALO-TehFReM-hI67WDCyIQ4ITUN3_LKsH&gdpr_consent=&gdpr_consent_avl=&cb=1671258927234&dcc=t","url":"https://aax-eu.amazon-adsystem.com/s/iu3?d=amazon.in&slot=navFooter&a2=0101e55f2eea8109402deb5f570f9d5fb3280e8bc13e3fefeb48f904cfd1a143eca2&old_oo=0&ts=1671258927234&s=AadyPsReP00ALO-TehFReM-hI67WDCyIQ4ITUN3_LKsH&gdpr_consent=&gdpr_consent_avl=&cb=1671258927234&dcc=t","attached":false,"canAccessOpener":false,"browserContextId":"F32D2D3450C867F4B6CD29460DA8B305"}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:29.489 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"C02DC787BB087CB190F9B364AC6DDE4B"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:29.490 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Page.frameDetached","params":{"frameId":"C02DC787BB087CB190F9B364AC6DDE4B","reason":"swap"},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:29.491 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":4},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:30.214 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"method":"Runtime.consoleAPICalled","params":{"type":"error","args":[{"type":"string","value":"Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {\"m\":\"Late loading module @m/mash\",\"csm\":\"v5 ueLogError callee\",\"logLevel\":\"WARN\",\"attribution\":\"MIX\",\"pageURL\":\"https://www.amazon.in/\",\"s\":[\"function(a,b,c,x){b={message:b,logLevel:c||\\\"ERROR\\\",attribution:l(\\\":\\\",this.attribution,x)};if(d.ueLogError)return d.ueLogError(a||b,a?b:null),!0;console&&console.error&&\\n(console.log(b),console.error(a));return!1}\",\"function(a,b,c){return this.logError(null,a,b,c)}\",\"function(){var c=\\\"Late loading module \\\"+a;f.P.log(c,\\\"WARN\\\",\\\"MIX\\\");b(c)}\"],\"t\":4075}"},{"type":"object","className":"Object","description":"Object","objectId":"4679051939352526597.1.4","preview":{"type":"object","description":"Object","overflow":true,"properties":[{"name":"m","type":"string","value":"Late loading module @m/mash"},{"name":"name","type":"undefin ...
+12:05:30.215 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - [console] Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {"m":"Late loading module @m/mash","csm":"v5 ueLogError callee","logLevel":"WARN","attribution":"MIX","pageURL":"https://www.amazon.in/","s":["function(a,b,c,x){b={message:b,logLevel:c||\"ERROR\",attribution:l(\":\",this.attribution,x)};if(d.ueLogError)return d.ueLogError(a||b,a?b:null),!0;console&&console.error&&\n(console.log(b),console.error(a));return!1}","function(a,b,c){return this.logError(null,a,b,c)}","function(){var c=\"Late loading module \"+a;f.P.log(c,\"WARN\",\"MIX\");b(c)}"],"t":4075}
+12:05:30.980 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":11,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Runtime.evaluate","params":{"expression":"(function(){ var fun = function(e){ var d = window.getComputedStyle(e).display; while(d == 'none'){ e = e.parentElement; d = window.getComputedStyle(e).display } e.scrollIntoView({block: 'center'}) }; var e = document.evaluate(\"\/\/*[@id=\"CardInstanceVncOVtfpZ1oMUfaVjpt6Zw\"]\/div\/div\/a\/span\", document, null, 9, null).singleNodeValue; return fun(e) })()","returnByValue":true}}
+12:05:30.982 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":11,"result":{"result":{"type":"object","subtype":"error","className":"SyntaxError","description":"SyntaxError: missing ) after argument list","objectId":"4679051939352526597.1.5"},"exceptionDetails":{"exceptionId":2,"text":"Uncaught","lineNumber":0,"columnNumber":227,"scriptId":"149","exception":{"type":"object","subtype":"error","className":"SyntaxError","description":"SyntaxError: missing ) after argument list","objectId":"4679051939352526597.1.6"}}},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:30.982 [nioEventLoopGroup-2-1]  WARN  c.i.k.driver.chrome_1671258922986 - devtools error: [id: 11, sessionId: E3B797FF192E5565CC45495887BFF49E, result: [type: MAP, value: {type=object, subtype=error, className=SyntaxError, description=SyntaxError: missing ) after argument list, objectId=4679051939352526597.1.5}]]
+12:05:30.982 [main]  ERROR c.i.k.driver.chrome_1671258922986 - js eval failed twice:(function(){ var fun = function(e){ var d = window.getComputedStyle(e).display; while(d == 'none'){ e = e.parentElement; d = window.getComputedStyle(e).display } e.scrollIntoView({block: 'center'}) }; var e = document.evaluate("//*[@id="CardInstanceVncOVtfpZ1oMUfaVjpt6Zw"]/div/div/a/span", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=SyntaxError, description=SyntaxError: missing ) after argument list, objectId=4679051939352526597.1.5}]
+12:05:31.003 [main]  ERROR com.intuit.karate - src/test/java/com/storeapiapp/features/Home.feature:7
+And scroll('//*[@id="CardInstanceVncOVtfpZ1oMUfaVjpt6Zw"]/div/div/a/span')
+js failed:
+>>>>
+01: scroll('//*[@id="CardInstanceVncOVtfpZ1oMUfaVjpt6Zw"]/div/div/a/span')
+<<<<
+org.graalvm.polyglot.PolyglotException: js eval failed twice:(function(){ var fun = function(e){ var d = window.getComputedStyle(e).display; while(d == 'none'){ e = e.parentElement; d = window.getComputedStyle(e).display } e.scrollIntoView({block: 'center'}) }; var e = document.evaluate("//*[@id="CardInstanceVncOVtfpZ1oMUfaVjpt6Zw"]/div/div/a/span", document, null, 9, null).singleNodeValue; return fun(e) })(), error: [type: MAP, value: {type=object, subtype=error, className=SyntaxError, description=SyntaxError: missing ) after argument list, objectId=4679051939352526597.1.5}]
+- com.intuit.karate.driver.DevToolsDriver.evalInternal(DevToolsDriver.java:348)
+- com.intuit.karate.driver.DevToolsDriver.eval(DevToolsDriver.java:322)
+- com.intuit.karate.driver.DevToolsDriver.script(DevToolsDriver.java:779)
+- com.intuit.karate.driver.Driver.script(Driver.java:443)
+- com.intuit.karate.driver.Driver.scroll(Driver.java:319)
+- <js>.:anonymous(Unnamed:1)
+
+src/test/java/com/storeapiapp/features/Home.feature:7
+12:05:31.003 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":12,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Page.captureScreenshot"}
+12:05:31.326 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":12,"result":{"data":"iVBORw0KGgoAAAANSUhEUgAABVYAAAKRCAYAAAC/c/KQAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlcFeX+B/APqyvHDRdcQgTN0pQoVDQlLbcojQy4XslbudTVbmlyvWKLS6VeM7GNbi4tit0feo2sS4aaBgYuJJdUSvEgkuYCaLK4sZ3fHzNzzsw5czY4cEA/79eLbM4s55nlzMzznWe+j0sHHz8diIiIiIiIiIiIiG4Tp45n13kZrg4oBxEREREREREREdFthYFVIiIiIiIiIiIiIjsxsEpERERERERERERkJwZWiYiIiIiIiIiIiOzEwCoRERERERERERGRnRhYJSIiIiIiIiIiIrITA6tEREREREREREREMl9//bXVaRhYJSIiIiIiIiIiIhJJQVVrwVUGVomIiIiIiKjRad3cHc093ZxdDCIius0YB1MtBVddOvj46eq7QERETck9/e7GktdjMeCefnB3d3d2cWot55dfMHjQIGcXg4iIiBoh3Z5Zzi6CTb7cfx4b95xB+q+XnV0UIiK6xZw6nm3ymaUg6oQJE0w+a7oRAyKienBPv7uRtDUB5eVXm3RQFQA8mnj5iYiIiJ4I8cHAnhq8sSUXyZkXnV0cIiK6xakFTy1hKgAiIpklr8fC3d0dbdu2cXZRiIiIiAiAv08rTBjUxdnFICIiMsHAKhGRzIB7+jm7CERERERkZGBPjbOLQEREZILviRIRyTT11/+JiIiIbkX+Pq2cXQQioltGVL+rWPawIXf1wt3tkZjD82xtsMUqERERERERERHRbcA4qAoAyx6+jKh+V51UoqaNgVUiIiIiIiIiIqJbXNvmNXgqsAwA8Fl2a/i/2wNpBc0BAON6X3Nm0ZosBlap0Zv57lakvDtV+eHIWGz7ZiVm2jDvttceAPAA3ti8FR9Or69SEhERERER3V5mbc1G8fHNmKX4dAUyzmUjyVplLW6nft41aaeQt9XxlTWHLldWXqqNF ...
+12:05:31.351 [main]  DEBUG c.i.k.driver.chrome_1671258922986 - >> {"id":13,"sessionId":"E3B797FF192E5565CC45495887BFF49E","method":"Target.closeTarget","params":{"targetId":"AE06BFD6FF4E6FC70CFA99E15D0E78D3"}}
+12:05:31.353 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1671258922986 - << {"id":13,"result":{"success":true},"sessionId":"E3B797FF192E5565CC45495887BFF49E"}
+12:05:31.358 [nioEventLoopGroup-2-1]  DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+12:05:31.365 [main]  DEBUG com.intuit.karate.shell.Command - closing command: chrome_1671258922986
+12:05:31.899 [chrome_1671258922986]  WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=c:\Automation\StoreApiApp\target\chrome_1671258922986, --disable-popup-blocking] working dir: target\chrome_1671258922986
+12:05:32.953 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/storeapiapp/features/Home.feature

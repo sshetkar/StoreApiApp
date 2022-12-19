@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: com.storeapiapp.StoreApiAppTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 15.661 s <<< FAILURE! - in com.storeapiapp.StoreApiAppTest
+testAll[2][1]  Time elapsed: 2.129 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: loginFeatureFile.response.data.access_token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "access_token" from undefined
+- <js>.:program(Unnamed:1)
+
+classpath:com/storeapiapp/features/User.feature:6
+
+testAll[2][2]  Time elapsed: 2.89 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: loginFeatureFile.response.data.access_token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "access_token" from undefined
+- <js>.:program(Unnamed:1)
+
+classpath:com/storeapiapp/features/User.feature:6
+
+testTags[2][1]  Time elapsed: 1.751 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: loginFeatureFile.response.data.access_token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "access_token" from undefined
+- <js>.:program(Unnamed:1)
+
+classpath:com/storeapiapp/features/User.feature:6
+
+testTags[2][2]  Time elapsed: 2.296 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: loginFeatureFile.response.data.access_token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "access_token" from undefined
+- <js>.:program(Unnamed:1)
+
+classpath:com/storeapiapp/features/User.feature:6
+

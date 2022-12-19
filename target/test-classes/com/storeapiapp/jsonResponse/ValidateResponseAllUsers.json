@@ -1,0 +1,162 @@
+
+{
+    "status": 200,
+    "message": "Success",
+
+    "data": [ 
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e4851345dcc333ac6cb24",
+      "name": "Robert Gonzalez",
+      "email": "robertgonzalez@gmail.com",
+      "number": 7729248883,
+      "password": "$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e",
+      "createdAt": "2021-08-31T15:18:41.876Z",
+      "updatedAt": "2022-12-08T10:19:44.649Z",
+      "lastLoginAt": "2022-12-08T10:19:44.647Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e48bf345dcc333ac6cb28",
+      "name": "William Counts",
+      "email": "williamcounts@gmail.com",
+      "number": 7872982968,
+      "password": "$2b$10$O3oEkHh4S3Fb39eHwEISCOCEl5.gQN72E97XgefYqyjJERgK2PG4C",
+      "createdAt": "2021-08-31T15:20:31.986Z",
+      "updatedAt": "2022-12-03T04:22:13.404Z",
+      "lastLoginAt": "2022-12-03T04:22:13.403Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e48e3345dcc333ac6cb2b",
+      "name": "Tom Hardy",
+      "email": "tomhardy@gmail.com",
+      "number": 7759013504,
+      "password": "$2b$10$C8/mtQZIjjM3ioxOYdrQouL6rMKShJBvgxaFZbpbpYncbHmIHKArO",
+      "createdAt": "2021-08-31T15:21:07.057Z",
+      "updatedAt": "2021-08-31T15:21:07.057Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e48fb345dcc333ac6cb2e",
+      "name": "Noah Ali",
+      "email": "noahali@gmail.com",
+      "number": 7543665837,
+      "password": "$2b$10$GpO44IIUnylgHHadFD3.eOzTZXmSihXZJNFkjrGv/APymIBN5uNrS",
+      "createdAt": "2021-08-31T15:21:31.161Z",
+      "updatedAt": "2021-08-31T15:21:31.161Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e493e345dcc333ac6cb32",
+      "name": "Steve Smith",
+      "email": "stevesmith@gmail.com",
+      "number": 7749111891,
+      "password": "$2b$10$LUEhfsyR8DFhueEzKd3jw.dWS0cs.uhBPuJ/Ck0iHDHcmu6sLyCgq",
+      "createdAt": "2021-08-31T15:22:38.221Z",
+      "updatedAt": "2021-08-31T15:22:38.221Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e4959345dcc333ac6cb35",
+      "name": "Sajal Mia",
+      "email": "sajalmia@gmail.com",
+      "number": 7268435167,
+      "password": "$2b$10$5th/Xc4cuJPmqGgfRf8m4OEDPHVXz0mEnVH2QWPMItdgVOpkXysL6",
+      "createdAt": "2021-08-31T15:23:05.292Z",
+      "updatedAt": "2021-08-31T15:23:05.292Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e4976345dcc333ac6cb38",
+      "name": "Aria Ella",
+      "email": "ariaella@gmail.com",
+      "number": 7963678467,
+      "password": "$2b$10$qE9WCPNXYpm1KfWApP5fQuKNRXBInLtR31yhNHKh0eCOnMaNv6auS",
+      "createdAt": "2021-08-31T15:23:34.955Z",
+      "updatedAt": "2021-08-31T15:23:34.955Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e4991345dcc333ac6cb3b",
+      "name": "Alex Dwan",
+      "email": "alexdwan@gmail.com",
+      "number": 7975390430,
+      "password": "$2b$10$sTPIk7IVckKrC.8MEHEXf.LgnGBzrNxDRvjBg4eRHigcrtEk9BsIS",
+      "createdAt": "2021-08-31T15:24:01.144Z",
+      "updatedAt": "2021-08-31T15:24:01.144Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e49a7345dcc333ac6cb3e",
+      "name": "James Anderson",
+      "email": "jamesanderson@gmail.com",
+      "number": 7902558400,
+      "password": "$2b$10$B84sCOtMAHWW8HHjrN4QtOqdj0geO165MTEu3DXcz.SDOjWbwdQ/6",
+      "createdAt": "2021-08-31T15:24:23.691Z",
+      "updatedAt": "2021-08-31T15:24:23.691Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e49b9345dcc333ac6cb41",
+      "name": "Sofia Lily",
+      "email": "sofialily@gmail.com",
+      "number": 7796230705,
+      "password": "$2b$10$hl4PFoUkcJE5.cl6esPg5Oc68hCkzKYyMsfhGAHzjKOOCl5ctdcbC",
+      "createdAt": "2021-08-31T15:24:41.082Z",
+      "updatedAt": "2021-08-31T15:24:41.082Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e49ce345dcc333ac6cb44",
+      "name": "David Miller",
+      "email": "davidmiller@gmail.com",
+      "number": 7078247245,
+      "password": "$2b$10$U5.JRMbdpZwFJIlRp8qPheXizuhKqZa0ziHfliQ8rdRFNLVcAlQ7C",
+      "createdAt": "2021-08-31T15:25:02.795Z",
+      "updatedAt": "2021-08-31T15:25:02.795Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e49eb345dcc333ac6cb47",
+      "name": "Mark Lyan",
+      "email": "marklyan@gmail.com",
+      "number": 7863927185,
+      "password": "$2b$10$CUZUneDal72236oUBth6rOVdYeRdPzd8IS.pDpiN/FESgv7s/1dmq",
+      "createdAt": "2021-08-31T15:25:31.869Z",
+      "updatedAt": "2022-12-13T18:31:20.017Z",
+      "lastLoginAt": "2022-12-13T18:31:20.015Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e4a02345dcc333ac6cb4a",
+      "name": "Donald Ashley",
+      "email": "donaldashley@gmail.com",
+      "number": 7848316392,
+      "password": "$2b$10$XhCilajToTgRxQTnLe1xUeVv5Q8.23LBSgOkyAHc6EgaXhm8AAPbO",
+      "createdAt": "2021-08-31T15:25:54.606Z",
+      "updatedAt": "2021-08-31T15:25:54.606Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "612e4a15345dcc333ac6cb4d",
+      "name": "Nova Aurora",
+      "email": "noaaurora@gmail.com",
+      "number": 7876017508,
+      "password": "$2b$10$s6ZOAOpnlocKLe4a770T6OHE9J9pYIuJD1iH4XxYjDefT5tIFs8La",
+      "createdAt": "2021-08-31T15:26:13.620Z",
+      "updatedAt": "2021-08-31T15:26:13.620Z"
+    },
+    {
+      "role": "ROLE_CUSTOMER",
+      "_id": "61e944df2cefb5a72936696a",
+      "name": "Torine Walker",
+      "email": "torinewalker@gmail.com",
+      "password": "$2b$10$XMcfSrDdn8C4yEzq6B6GfOlEB8qnIDE0yCJAxOxPhTUWX7I0NErGK",
+      "createdAt": "2022-01-20T11:17:51.529Z",
+      "updatedAt": "2022-02-19T13:09:15.024Z",
+      "number": 7867045701,
+      "lastLoginAt": "2022-02-19T13:09:15.022Z"
+    }
+  ]
+}
