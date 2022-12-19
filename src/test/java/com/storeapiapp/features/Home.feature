@@ -1,5 +1,6 @@
 Feature: UI >> Home Test
 
+@skip
 Scenario:
     Given driver 'https://www.amazon.in/'
     * driver maximize()

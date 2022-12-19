@@ -7,12 +7,14 @@ Background:
 
 #<--- Scenario START --->
 
+@user
 Scenario: To verify nodes under all user details for 1st user
     Given url 'https://api.storerestapi.com/users/612e4851345dcc333ac6cb24'
     When method Get
     Then status 200
     And match response == expectedResponseAllUsers.data[0]
 
+@user
 Scenario: To verify nodes under all user details for last user
     Given url 'https://api.storerestapi.com/users/61e944df2cefb5a72936696a'
     When method Get

@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("6fb9150f-d231-4f54-8c2d-803d94cf2657",{name:"SHASHANK"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>com.storeapiapp.features.User</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-19 05:59:01 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:15]"><span>[1:15]</span> <span>To verify list of users</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:24]"><span>[2:24]</span> <span>To verify nodes for single user</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/storeapiapp/features/User.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">StoreApp &gt;&gt; User API&#39;s &gt;&gt; Single User</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:15]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">debug</a><a class="badge badge-primary" href="karate-tags.html">user</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:15]</span>
+                <span class="scenario-name">To verify list of users</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1086</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:15]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Calling Token feature file and getting value of access token</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeatureFile = callonce read(&#39;../features/Token.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">612</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:59:00.176 &lt;&lt; lock released, cached callonce: read(&#39;../features/Token.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">com.storeapiapp.features.features.Token</div>
+      </div>
+      <div class="time-cell passed">609</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Declarations and file read</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginReqBody = read(&#39;../request/loginRequest.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.5">17:58:59.565 &gt;&gt; lock acquired, begin callonce: read(&#39;../features/Token.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print loginReqBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.6">17:58:59.567 [print] {
+  &quot;email&quot;: &quot;robertgonzalez@gmail.com&quot;,
+  &quot;password&quot;: &quot;simple_password&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://api.storerestapi.com/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request loginReqBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">607</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.11">17:58:59.571 request:
+1 &gt; POST https://api.storerestapi.com/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 65
+1 &gt; Host: api.storerestapi.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;robertgonzalez@gmail.com&quot;,&quot;password&quot;:&quot;simple_password&quot;}
+
+17:59:00.175 response time in milliseconds: 604
+1 &lt; 200
+1 &lt; Date: Mon, 19 Dec 2022 12:30:03 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;2a6-jG8AvOffl4GYHZNIggGoIFYjeyc&quot;
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Vkrzm5F0nA4Mg2GNy841eWHFI0k9apk3FHbSMN4bimE5rb5N%2Ft9NZ7t0etsuP0CGt%2Bvs7MjexnMhlGYDGHIgB3V8I7jH6VWIFXwq54cwa1ccI0GlrjpSpMpzEI13bBTWExsXZO8NnA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 77c025b45d574804-SIN
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;data&quot;:{&quot;access_token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTQ1MzAwMywiZXhwIjoxNjcxNDUzOTAzfQ.3vlEiWwC8UhdtT8xO435eQdJZhaYDovWFvOftXIx6xs&quot;,&quot;refresh_token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTQ1MzAwMywiZXhwIjoxNjcxNTM5NDAzfQ.vXGvZJfTVZjpMwg4Zb4KIafMuyE-BuO04u-aKjEYNwA&quot;},&quot;message&quot;:&quot;Sign in success&quot;,&quot;status&quot;:200}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.message contains &#39;Sign in success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.15">
+      <div class="step-ref bg-step">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def setAccessTokenForLogin = response.data.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.16">
+      <div class="step-ref bg-step">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;setAccessTokenForLogin is: &#39;,setAccessTokenForLogin</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.16">17:59:00.176 [print] setAccessTokenForLogin is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTQ1MzAwMywiZXhwIjoxNjcxNDUzOTAzfQ.3vlEiWwC8UhdtT8xO435eQdJZhaYDovWFvOftXIx6xs 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.17">
+      <div class="step-ref bg-step">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def setRefreshTokenForLogin = response.data.refresh_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.18">
+      <div class="step-ref bg-step">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;setRefreshTokenForLogin is: &#39;,setRefreshTokenForLogin</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.18">17:59:00.176 [print] setRefreshTokenForLogin is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTQ1MzAwMywiZXhwIjoxNjcxNTM5NDAzfQ.vXGvZJfTVZjpMwg4Zb4KIafMuyE-BuO04u-aKjEYNwA 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def getAccessTokenFromLogin = loginFeatureFile.response.data.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;Access token value from login is: &#39;, getAccessTokenFromLogin</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">17:59:00.176 [print] Access token value from login is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTQ1MzAwMywiZXhwIjoxNjcxNDUzOTAzfQ.3vlEiWwC8UhdtT8xO435eQdJZhaYDovWFvOftXIx6xs 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#To validate response of Scenario &#39;To verify nodes for single user&#39; created file &#39;validateResponseSingleUser&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def expectedResponseSingleUser = read(&#39;../jsonResponse/validateResponseSingleUser.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print expectedResponseSingleUser</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">17:59:00.178 [print] {
+  &quot;status&quot;: 200,
+  &quot;message&quot;: &quot;Success&quot;,
+  &quot;data&quot;: {
+    &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+    &quot;_id&quot;: &quot;612e4851345dcc333ac6cb24&quot;,
+    &quot;name&quot;: &quot;Robert Gonzalez&quot;,
+    &quot;email&quot;: &quot;robertgonzalez@gmail.com&quot;,
+    &quot;number&quot;: 7729248883,
+    &quot;password&quot;: &quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,
+    &quot;createdAt&quot;: &quot;2021-08-31T15:18:41.876Z&quot;,
+    &quot;updatedAt&quot;: &quot;2022-12-15T11:21:27.900Z&quot;,
+    &quot;lastLoginAt&quot;: &quot;2022-12-15T11:18:14.719Z&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.storerestapi.com/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header AccessToken = getAccessTokenFromLogin</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers {Content-Type: &#39;application/json&#39;,Accept: &#39;*/*&#39;,Connection: &#39;keep-alive&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">472</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">17:59:00.179 request:
+2 &gt; GET https://api.storerestapi.com/users
+2 &gt; AccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTQ1MzAwMywiZXhwIjoxNjcxNDUzOTAzfQ.3vlEiWwC8UhdtT8xO435eQdJZhaYDovWFvOftXIx6xs
+2 &gt; Content-Type: application/json
+2 &gt; Accept: */*
+2 &gt; Connection: keep-alive
+2 &gt; Host: api.storerestapi.com
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+17:59:00.649 response time in milliseconds: 470
+2 &lt; 200
+2 &lt; Date: Mon, 19 Dec 2022 12:30:03 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; X-Powered-By: Express
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; ETag: W/&quot;1156-cnewPKFgUp3n6XHUCAFiZTHg+Ds&quot;
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=g327WkfqAOxiXTwjJqJ6ObRCZYaFMlcvYA6GyevP5vgjaOzT%2FUloyZyusLkhLCoFd6NVwpumRpQzF0A7quQDYihn8QrdGde8gtwfKLZdlZlRkIxdAFE%2B3N1NoTvEsyYSs3D0XmFcQA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 77c025b81a6e5640-SIN
+2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;status&quot;:200,&quot;message&quot;:&quot;Success&quot;,&quot;data&quot;:[{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;name&quot;:&quot;Robert Gonzalez&quot;,&quot;email&quot;:&quot;robertgonzalez@gmail.com&quot;,&quot;number&quot;:7729248883,&quot;password&quot;:&quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:18:41.876Z&quot;,&quot;updatedAt&quot;:&quot;2022-12-19T12:30:03.223Z&quot;,&quot;lastLoginAt&quot;:&quot;2022-12-19T12:30:03.222Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e48bf345dcc333ac6cb28&quot;,&quot;name&quot;:&quot;William Counts&quot;,&quot;email&quot;:&quot;williamcounts@gmail.com&quot;,&quot;number&quot;:7872982968,&quot;password&quot;:&quot;$2b$10$O3oEkHh4S3Fb39eHwEISCOCEl5.gQN72E97XgefYqyjJERgK2PG4C&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:20:31.986Z&quot;,&quot;updatedAt&quot;:&quot;2022-12-03T04:22:13.404Z&quot;,&quot;lastLoginAt&quot;:&quot;2022-12-03T04:22:13.403Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e48e3345dcc333ac6cb2b&quot;,&quot;name&quot;:&quot;Tom Hardy&quot;,&quot;email&quot;:&quot;tomhardy@gmail.com&quot;,&quot;number&quot;:7759013504,&quot;password&quot;:&quot;$2b$10$C8/mtQZIjjM3ioxOYdrQouL6rMKShJBvgxaFZbpbpYncbHmIHKArO&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:21:07.057Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:21:07.057Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e48fb345dcc333ac6cb2e&quot;,&quot;name&quot;:&quot;Noah Ali&quot;,&quot;email&quot;:&quot;noahali@gmail.com&quot;,&quot;number&quot;:7543665837,&quot;password&quot;:&quot;$2b$10$GpO44IIUnylgHHadFD3.eOzTZXmSihXZJNFkjrGv/APymIBN5uNrS&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:21:31.161Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:21:31.161Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e493e345dcc333ac6cb32&quot;,&quot;name&quot;:&quot;Steve Smith&quot;,&quot;email&quot;:&quot;stevesmith@gmail.com&quot;,&quot;number&quot;:7749111891,&quot;password&quot;:&quot;$2b$10$LUEhfsyR8DFhueEzKd3jw.dWS0cs.uhBPuJ/Ck0iHDHcmu6sLyCgq&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:22:38.221Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:22:38.221Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4959345dcc333ac6cb35&quot;,&quot;name&quot;:&quot;Sajal Mia&quot;,&quot;email&quot;:&quot;sajalmia@gmail.com&quot;,&quot;number&quot;:7268435167,&quot;password&quot;:&quot;$2b$10$5th/Xc4cuJPmqGgfRf8m4OEDPHVXz0mEnVH2QWPMItdgVOpkXysL6&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:23:05.292Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:23:05.292Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4976345dcc333ac6cb38&quot;,&quot;name&quot;:&quot;Aria Ella&quot;,&quot;email&quot;:&quot;ariaella@gmail.com&quot;,&quot;number&quot;:7963678467,&quot;password&quot;:&quot;$2b$10$qE9WCPNXYpm1KfWApP5fQuKNRXBInLtR31yhNHKh0eCOnMaNv6auS&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:23:34.955Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:23:34.955Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4991345dcc333ac6cb3b&quot;,&quot;name&quot;:&quot;Alex Dwan&quot;,&quot;email&quot;:&quot;alexdwan@gmail.com&quot;,&quot;number&quot;:7975390430,&quot;password&quot;:&quot;$2b$10$sTPIk7IVckKrC.8MEHEXf.LgnGBzrNxDRvjBg4eRHigcrtEk9BsIS&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:24:01.144Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:24:01.144Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e49a7345dcc333ac6cb3e&quot;,&quot;name&quot;:&quot;James Anderson&quot;,&quot;email&quot;:&quot;jamesanderson@gmail.com&quot;,&quot;number&quot;:7902558400,&quot;password&quot;:&quot;$2b$10$B84sCOtMAHWW8HHjrN4QtOqdj0geO165MTEu3DXcz.SDOjWbwdQ/6&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:24:23.691Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:24:23.691Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e49b9345dcc333ac6cb41&quot;,&quot;name&quot;:&quot;Sofia Lily&quot;,&quot;email&quot;:&quot;sofialily@gmail.com&quot;,&quot;number&quot;:7796230705,&quot;password&quot;:&quot;$2b$10$hl4PFoUkcJE5.cl6esPg5Oc68hCkzKYyMsfhGAHzjKOOCl5ctdcbC&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:24:41.082Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:24:41.082Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e49ce345dcc333ac6cb44&quot;,&quot;name&quot;:&quot;David Miller&quot;,&quot;email&quot;:&quot;davidmiller@gmail.com&quot;,&quot;number&quot;:7078247245,&quot;password&quot;:&quot;$2b$10$U5.JRMbdpZwFJIlRp8qPheXizuhKqZa0ziHfliQ8rdRFNLVcAlQ7C&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:25:02.795Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:25:02.795Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e49eb345dcc333ac6cb47&quot;,&quot;name&quot;:&quot;Mark Lyan&quot;,&quot;email&quot;:&quot;marklyan@gmail.com&quot;,&quot;number&quot;:7863927185,&quot;password&quot;:&quot;$2b$10$CUZUneDal72236oUBth6rOVdYeRdPzd8IS.pDpiN/FESgv7s/1dmq&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:25:31.869Z&quot;,&quot;updatedAt&quot;:&quot;2022-12-19T11:05:04.674Z&quot;,&quot;lastLoginAt&quot;:&quot;2022-12-19T11:05:04.673Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4a02345dcc333ac6cb4a&quot;,&quot;name&quot;:&quot;Donald Ashley&quot;,&quot;email&quot;:&quot;donaldashley@gmail.com&quot;,&quot;number&quot;:7848316392,&quot;password&quot;:&quot;$2b$10$XhCilajToTgRxQTnLe1xUeVv5Q8.23LBSgOkyAHc6EgaXhm8AAPbO&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:25:54.606Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:25:54.606Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4a15345dcc333ac6cb4d&quot;,&quot;name&quot;:&quot;Nova Aurora&quot;,&quot;email&quot;:&quot;noaaurora@gmail.com&quot;,&quot;number&quot;:7876017508,&quot;password&quot;:&quot;$2b$10$s6ZOAOpnlocKLe4a770T6OHE9J9pYIuJD1iH4XxYjDefT5tIFs8La&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:26:13.620Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-31T15:26:13.620Z&quot;},{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;61e944df2cefb5a72936696a&quot;,&quot;name&quot;:&quot;Torine Walker&quot;,&quot;email&quot;:&quot;torinewalker@gmail.com&quot;,&quot;password&quot;:&quot;$2b$10$XMcfSrDdn8C4yEzq6B6GfOlEB8qnIDE0yCJAxOxPhTUWX7I0NErGK&quot;,&quot;createdAt&quot;:&quot;2022-01-20T11:17:51.529Z&quot;,&quot;updatedAt&quot;:&quot;2022-02-19T13:09:15.024Z&quot;,&quot;number&quot;:7867045701,&quot;lastLoginAt&quot;:&quot;2022-02-19T13:09:15.022Z&quot;}]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.21">17:59:00.650 [print] {
+  &quot;status&quot;: 200,
+  &quot;message&quot;: &quot;Success&quot;,
+  &quot;data&quot;: [
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e4851345dcc333ac6cb24&quot;,
+      &quot;name&quot;: &quot;Robert Gonzalez&quot;,
+      &quot;email&quot;: &quot;robertgonzalez@gmail.com&quot;,
+      &quot;number&quot;: 7729248883,
+      &quot;password&quot;: &quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:18:41.876Z&quot;,
+      &quot;updatedAt&quot;: &quot;2022-12-19T12:30:03.223Z&quot;,
+      &quot;lastLoginAt&quot;: &quot;2022-12-19T12:30:03.222Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e48bf345dcc333ac6cb28&quot;,
+      &quot;name&quot;: &quot;William Counts&quot;,
+      &quot;email&quot;: &quot;williamcounts@gmail.com&quot;,
+      &quot;number&quot;: 7872982968,
+      &quot;password&quot;: &quot;$2b$10$O3oEkHh4S3Fb39eHwEISCOCEl5.gQN72E97XgefYqyjJERgK2PG4C&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:20:31.986Z&quot;,
+      &quot;updatedAt&quot;: &quot;2022-12-03T04:22:13.404Z&quot;,
+      &quot;lastLoginAt&quot;: &quot;2022-12-03T04:22:13.403Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e48e3345dcc333ac6cb2b&quot;,
+      &quot;name&quot;: &quot;Tom Hardy&quot;,
+      &quot;email&quot;: &quot;tomhardy@gmail.com&quot;,
+      &quot;number&quot;: 7759013504,
+      &quot;password&quot;: &quot;$2b$10$C8/mtQZIjjM3ioxOYdrQouL6rMKShJBvgxaFZbpbpYncbHmIHKArO&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:21:07.057Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:21:07.057Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e48fb345dcc333ac6cb2e&quot;,
+      &quot;name&quot;: &quot;Noah Ali&quot;,
+      &quot;email&quot;: &quot;noahali@gmail.com&quot;,
+      &quot;number&quot;: 7543665837,
+      &quot;password&quot;: &quot;$2b$10$GpO44IIUnylgHHadFD3.eOzTZXmSihXZJNFkjrGv/APymIBN5uNrS&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:21:31.161Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:21:31.161Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e493e345dcc333ac6cb32&quot;,
+      &quot;name&quot;: &quot;Steve Smith&quot;,
+      &quot;email&quot;: &quot;stevesmith@gmail.com&quot;,
+      &quot;number&quot;: 7749111891,
+      &quot;password&quot;: &quot;$2b$10$LUEhfsyR8DFhueEzKd3jw.dWS0cs.uhBPuJ/Ck0iHDHcmu6sLyCgq&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:22:38.221Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:22:38.221Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e4959345dcc333ac6cb35&quot;,
+      &quot;name&quot;: &quot;Sajal Mia&quot;,
+      &quot;email&quot;: &quot;sajalmia@gmail.com&quot;,
+      &quot;number&quot;: 7268435167,
+      &quot;password&quot;: &quot;$2b$10$5th/Xc4cuJPmqGgfRf8m4OEDPHVXz0mEnVH2QWPMItdgVOpkXysL6&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:23:05.292Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:23:05.292Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e4976345dcc333ac6cb38&quot;,
+      &quot;name&quot;: &quot;Aria Ella&quot;,
+      &quot;email&quot;: &quot;ariaella@gmail.com&quot;,
+      &quot;number&quot;: 7963678467,
+      &quot;password&quot;: &quot;$2b$10$qE9WCPNXYpm1KfWApP5fQuKNRXBInLtR31yhNHKh0eCOnMaNv6auS&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:23:34.955Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:23:34.955Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e4991345dcc333ac6cb3b&quot;,
+      &quot;name&quot;: &quot;Alex Dwan&quot;,
+      &quot;email&quot;: &quot;alexdwan@gmail.com&quot;,
+      &quot;number&quot;: 7975390430,
+      &quot;password&quot;: &quot;$2b$10$sTPIk7IVckKrC.8MEHEXf.LgnGBzrNxDRvjBg4eRHigcrtEk9BsIS&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:24:01.144Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:24:01.144Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e49a7345dcc333ac6cb3e&quot;,
+      &quot;name&quot;: &quot;James Anderson&quot;,
+      &quot;email&quot;: &quot;jamesanderson@gmail.com&quot;,
+      &quot;number&quot;: 7902558400,
+      &quot;password&quot;: &quot;$2b$10$B84sCOtMAHWW8HHjrN4QtOqdj0geO165MTEu3DXcz.SDOjWbwdQ/6&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:24:23.691Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:24:23.691Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e49b9345dcc333ac6cb41&quot;,
+      &quot;name&quot;: &quot;Sofia Lily&quot;,
+      &quot;email&quot;: &quot;sofialily@gmail.com&quot;,
+      &quot;number&quot;: 7796230705,
+      &quot;password&quot;: &quot;$2b$10$hl4PFoUkcJE5.cl6esPg5Oc68hCkzKYyMsfhGAHzjKOOCl5ctdcbC&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:24:41.082Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:24:41.082Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e49ce345dcc333ac6cb44&quot;,
+      &quot;name&quot;: &quot;David Miller&quot;,
+      &quot;email&quot;: &quot;davidmiller@gmail.com&quot;,
+      &quot;number&quot;: 7078247245,
+      &quot;password&quot;: &quot;$2b$10$U5.JRMbdpZwFJIlRp8qPheXizuhKqZa0ziHfliQ8rdRFNLVcAlQ7C&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:25:02.795Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:25:02.795Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e49eb345dcc333ac6cb47&quot;,
+      &quot;name&quot;: &quot;Mark Lyan&quot;,
+      &quot;email&quot;: &quot;marklyan@gmail.com&quot;,
+      &quot;number&quot;: 7863927185,
+      &quot;password&quot;: &quot;$2b$10$CUZUneDal72236oUBth6rOVdYeRdPzd8IS.pDpiN/FESgv7s/1dmq&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:25:31.869Z&quot;,
+      &quot;updatedAt&quot;: &quot;2022-12-19T11:05:04.674Z&quot;,
+      &quot;lastLoginAt&quot;: &quot;2022-12-19T11:05:04.673Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e4a02345dcc333ac6cb4a&quot;,
+      &quot;name&quot;: &quot;Donald Ashley&quot;,
+      &quot;email&quot;: &quot;donaldashley@gmail.com&quot;,
+      &quot;number&quot;: 7848316392,
+      &quot;password&quot;: &quot;$2b$10$XhCilajToTgRxQTnLe1xUeVv5Q8.23LBSgOkyAHc6EgaXhm8AAPbO&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:25:54.606Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:25:54.606Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;612e4a15345dcc333ac6cb4d&quot;,
+      &quot;name&quot;: &quot;Nova Aurora&quot;,
+      &quot;email&quot;: &quot;noaaurora@gmail.com&quot;,
+      &quot;number&quot;: 7876017508,
+      &quot;password&quot;: &quot;$2b$10$s6ZOAOpnlocKLe4a770T6OHE9J9pYIuJD1iH4XxYjDefT5tIFs8La&quot;,
+      &quot;createdAt&quot;: &quot;2021-08-31T15:26:13.620Z&quot;,
+      &quot;updatedAt&quot;: &quot;2021-08-31T15:26:13.620Z&quot;
+    },
+    {
+      &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+      &quot;_id&quot;: &quot;61e944df2cefb5a72936696a&quot;,
+      &quot;name&quot;: &quot;Torine Walker&quot;,
+      &quot;email&quot;: &quot;torinewalker@gmail.com&quot;,
+      &quot;password&quot;: &quot;$2b$10$XMcfSrDdn8C4yEzq6B6GfOlEB8qnIDE0yCJAxOxPhTUWX7I0NErGK&quot;,
+      &quot;createdAt&quot;: &quot;2022-01-20T11:17:51.529Z&quot;,
+      &quot;updatedAt&quot;: &quot;2022-02-19T13:09:15.024Z&quot;,
+      &quot;number&quot;: 7867045701,
+      &quot;lastLoginAt&quot;: &quot;2022-02-19T13:09:15.022Z&quot;
+    }
+  ]
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:24]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">singleUser</a><a class="badge badge-primary" href="karate-tags.html">user</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:24]</span>
+                <span class="scenario-name">To verify nodes for single user</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>391</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:24]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Calling Token feature file and getting value of access token</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeatureFile = callonce read(&#39;../features/Token.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def getAccessTokenFromLogin = loginFeatureFile.response.data.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;Access token value from login is: &#39;, getAccessTokenFromLogin</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">17:59:00.654 [print] Access token value from login is:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTQ1MzAwMywiZXhwIjoxNjcxNDUzOTAzfQ.3vlEiWwC8UhdtT8xO435eQdJZhaYDovWFvOftXIx6xs 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#To validate response of Scenario &#39;To verify nodes for single user&#39; created file &#39;validateResponseSingleUser&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def expectedResponseSingleUser = read(&#39;../jsonResponse/validateResponseSingleUser.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print expectedResponseSingleUser</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">17:59:00.655 [print] {
+  &quot;status&quot;: 200,
+  &quot;message&quot;: &quot;Success&quot;,
+  &quot;data&quot;: {
+    &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+    &quot;_id&quot;: &quot;612e4851345dcc333ac6cb24&quot;,
+    &quot;name&quot;: &quot;Robert Gonzalez&quot;,
+    &quot;email&quot;: &quot;robertgonzalez@gmail.com&quot;,
+    &quot;number&quot;: 7729248883,
+    &quot;password&quot;: &quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,
+    &quot;createdAt&quot;: &quot;2021-08-31T15:18:41.876Z&quot;,
+    &quot;updatedAt&quot;: &quot;2022-12-15T11:21:27.900Z&quot;,
+    &quot;lastLoginAt&quot;: &quot;2022-12-15T11:18:14.719Z&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.storerestapi.com/users/612e4851345dcc333ac6cb24&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header AccessToken = getAccessTokenFromLogin</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">387</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.27">17:59:00.656 request:
+1 &gt; GET https://api.storerestapi.com/users/612e4851345dcc333ac6cb24
+1 &gt; AccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjYxMmU0ODUxMzQ1ZGNjMzMzYWM2Y2IyNCIsIm5hbWUiOiJSb2JlcnQgR29uemFsZXoiLCJyb2xlIjoiUk9MRV9DVVNUT01FUiIsImVtYWlsIjoicm9iZXJ0Z29uemFsZXpAZ21haWwuY29tIn0sImlhdCI6MTY3MTQ1MzAwMywiZXhwIjoxNjcxNDUzOTAzfQ.3vlEiWwC8UhdtT8xO435eQdJZhaYDovWFvOftXIx6xs
+1 &gt; Host: api.storerestapi.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:59:01.042 response time in milliseconds: 386
+1 &lt; 200
+1 &lt; Date: Mon, 19 Dec 2022 12:30:04 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;174-JXTLdmRF3II3A1KNWInOW6K79P8&quot;
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=JEoapiqqdlMVeJDpDvJjStjBzugNNMzSo%2FUHfIti%2BPi9oWCU4f0j8SalusZCpg%2FFNzpZp1SqSuoyCTKqrJWMBeUvbn%2Fg%2BfYGm3g6p%2B74J9UZLJwixz%2F2zcCkdWU1hrN9%2BJXSnV6Kug%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 77c025bb480087b3-SIN
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;status&quot;:200,&quot;message&quot;:&quot;Success&quot;,&quot;data&quot;:{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;name&quot;:&quot;Robert Gonzalez&quot;,&quot;email&quot;:&quot;robertgonzalez@gmail.com&quot;,&quot;number&quot;:7729248883,&quot;password&quot;:&quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:18:41.876Z&quot;,&quot;updatedAt&quot;:&quot;2022-12-19T12:30:03.223Z&quot;,&quot;lastLoginAt&quot;:&quot;2022-12-19T12:30:03.222Z&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">17:59:01.043 [print] {
+  &quot;status&quot;: 200,
+  &quot;message&quot;: &quot;Success&quot;,
+  &quot;data&quot;: {
+    &quot;role&quot;: &quot;ROLE_CUSTOMER&quot;,
+    &quot;_id&quot;: &quot;612e4851345dcc333ac6cb24&quot;,
+    &quot;name&quot;: &quot;Robert Gonzalez&quot;,
+    &quot;email&quot;: &quot;robertgonzalez@gmail.com&quot;,
+    &quot;number&quot;: 7729248883,
+    &quot;password&quot;: &quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,
+    &quot;createdAt&quot;: &quot;2021-08-31T15:18:41.876Z&quot;,
+    &quot;updatedAt&quot;: &quot;2022-12-19T12:30:03.223Z&quot;,
+    &quot;lastLoginAt&quot;: &quot;2022-12-19T12:30:03.222Z&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data._id == &quot;612e4851345dcc333ac6cb24&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.email != null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref failed">33</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response == expectedResponseSingleUser</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.33">17:59:01.044 classpath:com/storeapiapp/features/User.feature:33
+And match response == expectedResponseSingleUser
+match failed: EQUALS
+  $ | not equal | match failed for name: &#39;data&#39; (MAP:MAP)
+  {&quot;status&quot;:200,&quot;message&quot;:&quot;Success&quot;,&quot;data&quot;:{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;name&quot;:&quot;Robert Gonzalez&quot;,&quot;email&quot;:&quot;robertgonzalez@gmail.com&quot;,&quot;number&quot;:7729248883,&quot;password&quot;:&quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:18:41.876Z&quot;,&quot;updatedAt&quot;:&quot;2022-12-19T12:30:03.223Z&quot;,&quot;lastLoginAt&quot;:&quot;2022-12-19T12:30:03.222Z&quot;}}
+  {&quot;status&quot;:200,&quot;message&quot;:&quot;Success&quot;,&quot;data&quot;:{&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;name&quot;:&quot;Robert Gonzalez&quot;,&quot;email&quot;:&quot;robertgonzalez@gmail.com&quot;,&quot;number&quot;:7729248883,&quot;password&quot;:&quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:18:41.876Z&quot;,&quot;updatedAt&quot;:&quot;2022-12-15T11:21:27.900Z&quot;,&quot;lastLoginAt&quot;:&quot;2022-12-15T11:18:14.719Z&quot;}}
+
+    $.data | not equal | match failed for name: &#39;updatedAt&#39; (MAP:MAP)
+    {&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;name&quot;:&quot;Robert Gonzalez&quot;,&quot;email&quot;:&quot;robertgonzalez@gmail.com&quot;,&quot;number&quot;:7729248883,&quot;password&quot;:&quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:18:41.876Z&quot;,&quot;updatedAt&quot;:&quot;2022-12-19T12:30:03.223Z&quot;,&quot;lastLoginAt&quot;:&quot;2022-12-19T12:30:03.222Z&quot;}
+    {&quot;role&quot;:&quot;ROLE_CUSTOMER&quot;,&quot;_id&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;name&quot;:&quot;Robert Gonzalez&quot;,&quot;email&quot;:&quot;robertgonzalez@gmail.com&quot;,&quot;number&quot;:7729248883,&quot;password&quot;:&quot;$2b$10$VNrU4oX2aqRYQDQsecpTiO37oQZTnVE43JFKXQXCDWHq2PcVWHz9e&quot;,&quot;createdAt&quot;:&quot;2021-08-31T15:18:41.876Z&quot;,&quot;updatedAt&quot;:&quot;2022-12-15T11:21:27.900Z&quot;,&quot;lastLoginAt&quot;:&quot;2022-12-15T11:18:14.719Z&quot;}
+
+      $.data.updatedAt | not equal (STRING:STRING)
+      &#39;2022-12-19T12:30:03.223Z&#39;
+      &#39;2022-12-15T11:21:27.900Z&#39;
+
+classpath:com/storeapiapp/features/User.feature:33
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

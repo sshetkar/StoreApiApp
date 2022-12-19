@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("6fb9150f-d231-4f54-8c2d-803d94cf2657",{name:"SHASHANK"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>com.storeapiapp.features.AllCategories</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">4</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-19 05:58:55 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>To verify response of all categories API</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:14]"><span>[2:14]</span> <span>To verify response for single category</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:66]"><span>[3:66]</span> <span>To verify &#39;Fuzzy Match&#39; for single category</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:89]"><span>[4:89]</span> <span>To validate response value for each node for single category</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/storeapiapp/features/AllCategories.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">StoreApp &gt;&gt; User API&#39;s &gt;&gt; All Category</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">To verify response of all categories API</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>510</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def readKarateConfig = call read(&#39;../Karate-config.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:58:53.355 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def getBaseUrl = readKarateConfig.prodBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print getBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">17:58:53.357 [print] https://api.storerestapi.com 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url getBaseUrl + &#39;/categories&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">505</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">17:58:53.359 request:
+1 &gt; GET https://api.storerestapi.com/categories
+1 &gt; Host: api.storerestapi.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:58:53.862 response time in milliseconds: 502
+1 &lt; 200
+1 &lt; Date: Mon, 19 Dec 2022 12:29:56 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;5a2-sW4i9Tmayhj/dlCwpNvxOZ33W40&quot;
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=933mtc7dfN8%2Fw9VMNSkubjoQTvus031UeV591A2%2FSBCzzHtqPYdgR0AMFQUoZLe570v22JocRgkmjAqXLxg1igBnUDEuCZ0%2BFVmPB3tiasby9A27UkpcnfNFnLw6Oh1W1ktZAKPYrg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 77c0258d8aa04cdd-SIN
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;data&quot;:[{&quot;products&quot;:[&quot;61ab420c0f34753bcedfa787&quot;,&quot;61ab42600f34753bcedfa78b&quot;,&quot;61ab42790f34753bcedfa78f&quot;],&quot;_id&quot;:&quot;61ab1ca64a0fef3f27dc663f&quot;,&quot;name&quot;:&quot;men&#39;s fashion&quot;,&quot;slug&quot;:&quot;mens-fashion&quot;},{&quot;products&quot;:[&quot;61ab42d00f34753bcedfa79e&quot;,&quot;61ab42e90f34753bcedfa7a2&quot;,&quot;61ebbfe64efdea94da60a734&quot;,&quot;61ebc0034efdea57a860a746&quot;,&quot;61ebc05f4efdea55d360a756&quot;,&quot;61ebc0644efdea030e60a76a&quot;],&quot;_id&quot;:&quot;61ab1ce24a0fef3f27dc6647&quot;,&quot;name&quot;:&quot;women&#39;s fashion&quot;,&quot;slug&quot;:&quot;womens-fashion&quot;},{&quot;products&quot;:[&quot;61ab44f40f34753bcedfa819&quot;,&quot;61ab450a0f34753bcedfa81d&quot;,&quot;61ab68a30f34753bcedfa898&quot;],&quot;_id&quot;:&quot;61ab1cf84a0fef3f27dc664a&quot;,&quot;name&quot;:&quot;jewlary &amp; watches&quot;,&quot;slug&quot;:&quot;jewlary-and-watches&quot;},{&quot;products&quot;:[&quot;61ab431c0f34753bcedfa7a6&quot;,&quot;61ab43350f34753bcedfa7aa&quot;,&quot;61ab434b0f34753bcedfa7ae&quot;],&quot;_id&quot;:&quot;61ab1d0e4a0fef3f27dc664d&quot;,&quot;name&quot;:&quot;bags &amp; shoes&quot;,&quot;slug&quot;:&quot;bags-and-shoes&quot;},{&quot;products&quot;:[&quot;61ab47110f34753bcedfa83f&quot;,&quot;61ab472c0f34753bcedfa843&quot;],&quot;_id&quot;:&quot;61ab1d274a0fef3f27dc6650&quot;,&quot;name&quot;:&quot;computers&quot;,&quot;slug&quot;:&quot;computers&quot;},{&quot;products&quot;:[&quot;61ab475a0f34753bcedfa847&quot;,&quot;61ab47c20f34753bcedfa853&quot;],&quot;_id&quot;:&quot;61ab1d3b4a0fef3f27dc6654&quot;,&quot;name&quot;:&quot;phone &amp; tablets&quot;,&quot;slug&quot;:&quot;phone-and-tablets&quot;},{&quot;products&quot;:[&quot;61ab48350f34753bcedfa862&quot;,&quot;61ab484d0f34753bcedfa866&quot;],&quot;_id&quot;:&quot;61ab1d4e4a0fef3f27dc6657&quot;,&quot;name&quot;:&quot;tools &amp; hardware&quot;,&quot;slug&quot;:&quot;tools-and-hardware&quot;},{&quot;products&quot;:[&quot;61ab47e70f34753bcedfa857&quot;,&quot;61ab47fd0f34753bcedfa85b&quot;],&quot;_id&quot;:&quot;61ab1d594a0fef3f27dc665a&quot;,&quot;name&quot;:&quot;home &amp; furniture&quot;,&quot;slug&quot;:&quot;home-and-furniture&quot;}],&quot;status&quot;:200,&quot;message&quot;:&quot;Success&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.message contains &#39;Success&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:14]</span>
+                <span class="scenario-name">To verify response for single category</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>483</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:14]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def readKarateConfig = call read(&#39;../Karate-config.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:58:53.868 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def getBaseUrl = readKarateConfig.prodBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print getBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">17:58:53.869 [print] https://api.storerestapi.com 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.storerestapi.com/categories/bags-and-shoes&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">481</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.16">17:58:53.870 request:
+1 &gt; GET https://api.storerestapi.com/categories/bags-and-shoes
+1 &gt; Host: api.storerestapi.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:58:54.350 response time in milliseconds: 480
+1 &lt; 200
+1 &lt; Date: Mon, 19 Dec 2022 12:29:57 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;3ee-riRSXEFt6d0wQYI+z9rzjK4UEfg&quot;
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=j9XArfnPhYZvX47J9A1k%2Bh30CBvZt0bG1m4RXfuYiE44QCBcGlxs2oeVlRR2OvjVVIG4Ds64qe0J8cV0WVmtEF9HMXNlsaanAPXFhtipPSQM2VNwVt2IFb8P4hhblRSfsD%2F58KpW1w%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 77c02590bff19f7a-SIN
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;data&quot;:{&quot;products&quot;:[{&quot;_id&quot;:&quot;61ab431c0f34753bcedfa7a6&quot;,&quot;title&quot;:&quot;running sneaker&quot;,&quot;price&quot;:200,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:29:48.295Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:29:48.295Z&quot;,&quot;slug&quot;:&quot;running-sneaker&quot;},{&quot;_id&quot;:&quot;61ab43350f34753bcedfa7aa&quot;,&quot;title&quot;:&quot;men casual shoes sports running sneakers&quot;,&quot;price&quot;:100,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e48fb345dcc333ac6cb2e&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:30:13.299Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:30:13.299Z&quot;,&quot;slug&quot;:&quot;men-casual-shoes-sports-running-sneakers&quot;},{&quot;_id&quot;:&quot;61ab434b0f34753bcedfa7ae&quot;,&quot;title&quot;:&quot;premium leather matt black casual boot&quot;,&quot;price&quot;:250,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e4991345dcc333ac6cb3b&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:30:35.528Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:30:35.528Z&quot;,&quot;slug&quot;:&quot;premium-leather-matt-black-casual-boot&quot;}],&quot;_id&quot;:&quot;61ab1d0e4a0fef3f27dc664d&quot;,&quot;name&quot;:&quot;bags &amp; shoes&quot;,&quot;slug&quot;:&quot;bags-and-shoes&quot;},&quot;status&quot;:200,&quot;message&quot;:&quot;Success! Category found&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.18">{
+&quot;data&quot;: {
+    &quot;products&quot;: [
+        {
+            &quot;_id&quot;: &quot;61ab431c0f34753bcedfa7a6&quot;,
+            &quot;title&quot;: &quot;running sneaker&quot;,
+            &quot;price&quot;: 200,
+            &quot;description&quot;: null,
+            &quot;imageSource&quot;: null,
+            &quot;createdBy&quot;: &quot;612e4851345dcc333ac6cb24&quot;,
+            &quot;createdAt&quot;: &quot;2021-12-04T10:29:48.295Z&quot;,
+            &quot;updatedAt&quot;: &quot;2021-12-04T10:29:48.295Z&quot;,
+            &quot;slug&quot;: &quot;running-sneaker&quot;
+        },
+        {
+            &quot;_id&quot;: &quot;61ab43350f34753bcedfa7aa&quot;,
+            &quot;title&quot;: &quot;men casual shoes sports running sneakers&quot;,
+            &quot;price&quot;: 100,
+            &quot;description&quot;: null,
+            &quot;imageSource&quot;: null,
+            &quot;createdBy&quot;: &quot;612e48fb345dcc333ac6cb2e&quot;,
+            &quot;createdAt&quot;: &quot;2021-12-04T10:30:13.299Z&quot;,
+            &quot;updatedAt&quot;: &quot;2021-12-04T10:30:13.299Z&quot;,
+            &quot;slug&quot;: &quot;men-casual-shoes-sports-running-sneakers&quot;
+        },
+        {
+            &quot;_id&quot;: &quot;61ab434b0f34753bcedfa7ae&quot;,
+            &quot;title&quot;: &quot;premium leather matt black casual boot&quot;,
+            &quot;price&quot;: 250,
+            &quot;description&quot;: null,
+            &quot;imageSource&quot;: null,
+            &quot;createdBy&quot;: &quot;612e4991345dcc333ac6cb3b&quot;,
+            &quot;createdAt&quot;: &quot;2021-12-04T10:30:35.528Z&quot;,
+            &quot;updatedAt&quot;: &quot;2021-12-04T10:30:35.528Z&quot;,
+            &quot;slug&quot;: &quot;premium-leather-matt-black-casual-boot&quot;
+        }
+    ],
+    &quot;_id&quot;: &quot;61ab1d0e4a0fef3f27dc664d&quot;,
+    &quot;name&quot;: &quot;bags &amp; shoes&quot;,
+    &quot;slug&quot;: &quot;bags-and-shoes&quot;
+},
+&quot;status&quot;: 200,
+&quot;message&quot;: &quot;Success! Category found&quot;
+        }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:66]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:66]</span>
+                <span class="scenario-name">To verify &#39;Fuzzy Match&#39; for single category</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>510</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:66]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:66]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def readKarateConfig = call read(&#39;../Karate-config.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:58:54.354 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:66]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def getBaseUrl = readKarateConfig.prodBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:66]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print getBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">17:58:54.355 [print] https://api.storerestapi.com 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.67">
+      <div class="step-ref passed">67</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.storerestapi.com/categories/bags-and-shoes&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.68">
+      <div class="step-ref passed">68</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">505</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.68">17:58:54.356 request:
+1 &gt; GET https://api.storerestapi.com/categories/bags-and-shoes
+1 &gt; Host: api.storerestapi.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:58:54.859 response time in milliseconds: 503
+1 &lt; 200
+1 &lt; Date: Mon, 19 Dec 2022 12:29:57 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;3ee-riRSXEFt6d0wQYI+z9rzjK4UEfg&quot;
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=ohXMoLuKf2VwT7Cj89tPgWvugh418XAtZntel2YoWX%2Fm5Ak%2BPKXCoOfhsLH1SKU46cRB1C58rKzFp0YjQLU7ATvQMH3Sx%2Fn0IXpY34gdn9xbMELWOfcXniGpqhhcCxUk0QViDA77yA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 77c02593bd20ab61-SIN
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;data&quot;:{&quot;products&quot;:[{&quot;_id&quot;:&quot;61ab431c0f34753bcedfa7a6&quot;,&quot;title&quot;:&quot;running sneaker&quot;,&quot;price&quot;:200,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:29:48.295Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:29:48.295Z&quot;,&quot;slug&quot;:&quot;running-sneaker&quot;},{&quot;_id&quot;:&quot;61ab43350f34753bcedfa7aa&quot;,&quot;title&quot;:&quot;men casual shoes sports running sneakers&quot;,&quot;price&quot;:100,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e48fb345dcc333ac6cb2e&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:30:13.299Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:30:13.299Z&quot;,&quot;slug&quot;:&quot;men-casual-shoes-sports-running-sneakers&quot;},{&quot;_id&quot;:&quot;61ab434b0f34753bcedfa7ae&quot;,&quot;title&quot;:&quot;premium leather matt black casual boot&quot;,&quot;price&quot;:250,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e4991345dcc333ac6cb3b&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:30:35.528Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:30:35.528Z&quot;,&quot;slug&quot;:&quot;premium-leather-matt-black-casual-boot&quot;}],&quot;_id&quot;:&quot;61ab1d0e4a0fef3f27dc664d&quot;,&quot;name&quot;:&quot;bags &amp; shoes&quot;,&quot;slug&quot;:&quot;bags-and-shoes&quot;},&quot;status&quot;:200,&quot;message&quot;:&quot;Success! Category found&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.70">
+      <div class="step-ref passed">70</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.products == &#39;#[]&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.71">
+      <div class="step-ref passed">71</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.products[*]._id contains &#39;#string&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.73">
+      <div class="step-ref passed">73</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response.data.products[*] ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.73">{
+    &quot;_id&quot;: &quot;#string&quot;,
+    &quot;title&quot;: &quot;#string&quot;,
+    &quot;price&quot;: &#39;#number&#39;,
+    &quot;description&quot;: &#39;#&#39;,
+    &quot;imageSource&quot;: &#39;#&#39;,
+    &quot;createdBy&quot;: &quot;#string&quot;,
+    &quot;createdAt&quot;: &quot;#string&quot;,
+    &quot;updatedAt&quot;: &quot;#string&quot;,
+    &quot;slug&quot;: &quot;#string&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:89]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:89]</span>
+                <span class="scenario-name">To validate response value for each node for single category</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>519</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:89]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:89]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def readKarateConfig = call read(&#39;../Karate-config.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:58:54.867 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:89]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def getBaseUrl = readKarateConfig.prodBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:89]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print getBaseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">17:58:54.868 [print] https://api.storerestapi.com 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.90">
+      <div class="step-ref passed">90</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.storerestapi.com/categories/bags-and-shoes&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.91">
+      <div class="step-ref passed">91</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">510</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.91">17:58:54.869 request:
+1 &gt; GET https://api.storerestapi.com/categories/bags-and-shoes
+1 &gt; Host: api.storerestapi.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:58:55.378 response time in milliseconds: 508
+1 &lt; 200
+1 &lt; Date: Mon, 19 Dec 2022 12:29:58 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; ETag: W/&quot;3ee-riRSXEFt6d0wQYI+z9rzjK4UEfg&quot;
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=iwhMhgR3zJ9ufPxsp1Ql4evD1fuPsi7T%2FiqHSTHUxq%2FcaLht4pxApJuO6SruhHFDdg2CKHrE%2FzHMpmwbxahXUAsaMfY%2BqOgg40z7N5uMJ8ZbPyzrNgmstOiDfAfH7B3wTs1HDN23Wg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 77c0259708ef4b6e-SIN
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;data&quot;:{&quot;products&quot;:[{&quot;_id&quot;:&quot;61ab431c0f34753bcedfa7a6&quot;,&quot;title&quot;:&quot;running sneaker&quot;,&quot;price&quot;:200,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e4851345dcc333ac6cb24&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:29:48.295Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:29:48.295Z&quot;,&quot;slug&quot;:&quot;running-sneaker&quot;},{&quot;_id&quot;:&quot;61ab43350f34753bcedfa7aa&quot;,&quot;title&quot;:&quot;men casual shoes sports running sneakers&quot;,&quot;price&quot;:100,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e48fb345dcc333ac6cb2e&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:30:13.299Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:30:13.299Z&quot;,&quot;slug&quot;:&quot;men-casual-shoes-sports-running-sneakers&quot;},{&quot;_id&quot;:&quot;61ab434b0f34753bcedfa7ae&quot;,&quot;title&quot;:&quot;premium leather matt black casual boot&quot;,&quot;price&quot;:250,&quot;description&quot;:null,&quot;imageSource&quot;:null,&quot;createdBy&quot;:&quot;612e4991345dcc333ac6cb3b&quot;,&quot;createdAt&quot;:&quot;2021-12-04T10:30:35.528Z&quot;,&quot;updatedAt&quot;:&quot;2021-12-04T10:30:35.528Z&quot;,&quot;slug&quot;:&quot;premium-leather-matt-black-casual-boot&quot;}],&quot;_id&quot;:&quot;61ab1d0e4a0fef3f27dc664d&quot;,&quot;name&quot;:&quot;bags &amp; shoes&quot;,&quot;slug&quot;:&quot;bags-and-shoes&quot;},&quot;status&quot;:200,&quot;message&quot;:&quot;Success! Category found&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.93">
+      <div class="step-ref passed">93</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.name contains &#39;bags &amp; shoes&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.94">
+      <div class="step-ref passed">94</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response..name == &#39;#string&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.95">
+      <div class="step-ref passed">95</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.slug == &#39;bags-and-shoes&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.96">
+      <div class="step-ref passed">96</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.slug != &#39;#number&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.98">
+      <div class="step-ref passed">98</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data._id == &#39;#present&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.99">
+      <div class="step-ref passed">99</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response.._id == &#39;##&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.100">
+      <div class="step-ref passed">100</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response..status == 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.101">
+      <div class="step-ref passed">101</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.status != 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.102">
+      <div class="step-ref passed">102</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response.data..products[7] == &#39;61ab47e70f34753bcedfa857&#39;, &#39;61ab47fd0f34753bcedfa85b&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

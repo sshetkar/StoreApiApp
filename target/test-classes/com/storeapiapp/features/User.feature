@@ -1,18 +1,17 @@
 Feature: StoreApp >> User API's >> Single User
 
 Background:
-#Calling login feature file and getting value of access token
-    * def loginFeatureFile = call read('../features/Login.feature')
+#Calling Token feature file and getting value of access token
+    * def loginFeatureFile = callonce read('../features/Token.feature')
     * def getAccessTokenFromLogin = loginFeatureFile.response.data.access_token
     * print 'Access token value from login is: ', getAccessTokenFromLogin
 
 #To validate response of Scenario 'To verify nodes for single user' created file 'validateResponseSingleUser'
     * def expectedResponseSingleUser = read('../jsonResponse/validateResponseSingleUser.json')
-    And print expectedResponseSingleUser
-     
+    And print expectedResponseSingleUser   
 
 #<--- Scenario START --->
-@user
+@user @debug
 Scenario: To verify list of users
     Given url 'https://api.storerestapi.com/users'
     And header AccessToken = getAccessTokenFromLogin
